@@ -1,0 +1,5560 @@
+{
+  "lights": {
+    "1": {
+      "state": {
+        "on": true,
+        "bri": 42,
+        "hue": 65535,
+        "sat": 0,
+        "effect": "none",
+        "xy": [
+          0.3804,
+          0.3768
+        ],
+        "ct": 247,
+        "alert": "select",
+        "colormode": "hs",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-03-03T13:08:29"
+      },
+      "type": "Extended color light",
+      "name": "Luminaire salon 2",
+      "modelid": "LCT015",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue color lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 1000,
+          "maxlumen": 806,
+          "colorgamuttype": "C",
+          "colorgamut": [
+            [
+              0.6915,
+              0.3083
+            ],
+            [
+              0.1700,
+              0.7000
+            ],
+            [
+              0.1532,
+              0.0475
+            ]
+          ],
+          "ct": {
+            "min": 153,
+            "max": 500
+          }
+        },
+        "streaming": {
+          "renderer": true,
+          "proxy": true
+        }
+      },
+      "config": {
+        "archetype": "sultanbulb",
+        "function": "mixed",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "safety",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:04:ab:56:d8-0b",
+      "swversion": "1.50.2_r30933",
+      "swconfigid": "368304DE",
+      "productid": "Philips-LCT015-2-A19ECLv5"
+    },
+    "2": {
+      "state": {
+        "on": true,
+        "bri": 43,
+        "hue": 65535,
+        "sat": 0,
+        "effect": "none",
+        "xy": [
+          0.3804,
+          0.3768
+        ],
+        "ct": 247,
+        "alert": "select",
+        "colormode": "hs",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-03-03T13:08:34"
+      },
+      "type": "Extended color light",
+      "name": "Luminaire salon 1",
+      "modelid": "LCT015",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue color lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 1000,
+          "maxlumen": 806,
+          "colorgamuttype": "C",
+          "colorgamut": [
+            [
+              0.6915,
+              0.3083
+            ],
+            [
+              0.1700,
+              0.7000
+            ],
+            [
+              0.1532,
+              0.0475
+            ]
+          ],
+          "ct": {
+            "min": 153,
+            "max": 500
+          }
+        },
+        "streaming": {
+          "renderer": true,
+          "proxy": true
+        }
+      },
+      "config": {
+        "archetype": "sultanbulb",
+        "function": "mixed",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "safety",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:04:3f:cb:33-0b",
+      "swversion": "1.50.2_r30933",
+      "swconfigid": "368304DE",
+      "productid": "Philips-LCT015-2-A19ECLv5"
+    },
+    "3": {
+      "state": {
+        "on": true,
+        "bri": 94,
+        "hue": 8402,
+        "sat": 140,
+        "effect": "none",
+        "xy": [
+          0.4575,
+          0.4099
+        ],
+        "ct": 366,
+        "alert": "select",
+        "colormode": "xy",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-03-03T13:08:40"
+      },
+      "type": "Extended color light",
+      "name": "Plafonnier chambre",
+      "modelid": "LCT015",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue color lamp",
+      "capabilities": {
+        "certified": true,
+        "control": {
+          "mindimlevel": 1000,
+          "maxlumen": 806,
+          "colorgamuttype": "C",
+          "colorgamut": [
+            [
+              0.6915,
+              0.3083
+            ],
+            [
+              0.1700,
+              0.7000
+            ],
+            [
+              0.1532,
+              0.0475
+            ]
+          ],
+          "ct": {
+            "min": 153,
+            "max": 500
+          }
+        },
+        "streaming": {
+          "renderer": true,
+          "proxy": true
+        }
+      },
+      "config": {
+        "archetype": "pendantround",
+        "function": "mixed",
+        "direction": "omnidirectional",
+        "startup": {
+          "mode": "safety",
+          "configured": true
+        }
+      },
+      "uniqueid": "00:17:88:01:04:ab:57:b0-0b",
+      "swversion": "1.50.2_r30933",
+      "swconfigid": "368304DE",
+      "productid": "Philips-LCT015-2-A19ECLv5"
+    },
+    "4": {
+      "state": {
+        "on": false,
+        "alert": "select",
+        "mode": "homeautomation",
+        "reachable": false
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2019-07-19T13:26:36"
+      },
+      "type": "On/Off plug-in unit",
+      "name": "On/Off plug 1",
+      "modelid": "Plug 01",
+      "manufacturername": "OSRAM",
+      "productname": "On/Off plug",
+      "capabilities": {
+        "certified": false,
+        "control": {},
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "classicbulb",
+        "function": "functional",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "7c:b0:3e:aa:0a:00:d3:a8-03",
+      "swversion": "V1.04.12"
+    },
+    "5": {
+      "state": {
+        "on": false,
+        "bri": 254,
+        "hue": 0,
+        "sat": 37,
+        "effect": "none",
+        "xy": [
+          0.3103,
+          0.3299
+        ],
+        "ct": 153,
+        "alert": "select",
+        "colormode": "xy",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2019-10-24T12:50:42"
+      },
+      "type": "Extended color light",
+      "name": "Cuisine gauche",
+      "modelid": "RS 230 C",
+      "manufacturername": "innr",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "colorgamut": [
+            [
+              0.6800,
+              0.3100
+            ],
+            [
+              0.1100,
+              0.8200
+            ],
+            [
+              0.1300,
+              0.0400
+            ]
+          ],
+          "ct": {
+            "min": 153,
+            "max": 555
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "spotbulb",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "cc:cc:cc:ff:fe:39:67:b9-01",
+      "swversion": "2.7"
+    },
+    "6": {
+      "state": {
+        "on": false,
+        "bri": 83,
+        "hue": 0,
+        "sat": 199,
+        "effect": "none",
+        "xy": [
+          0.4559,
+          0.4096
+        ],
+        "ct": 367,
+        "alert": "select",
+        "colormode": "ct",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2019-10-24T12:50:52"
+      },
+      "type": "Extended color light",
+      "name": "Entré",
+      "modelid": "RS 230 C",
+      "manufacturername": "innr",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "colorgamut": [
+            [
+              0.6800,
+              0.3100
+            ],
+            [
+              0.1100,
+              0.8200
+            ],
+            [
+              0.1300,
+              0.0400
+            ]
+          ],
+          "ct": {
+            "min": 153,
+            "max": 555
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "spotbulb",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "14:b4:57:ff:fe:82:b9:9e-01",
+      "swversion": "2.7"
+    },
+    "7": {
+      "state": {
+        "on": false,
+        "bri": 254,
+        "hue": 0,
+        "sat": 37,
+        "effect": "none",
+        "xy": [
+          0.3103,
+          0.3299
+        ],
+        "ct": 153,
+        "alert": "select",
+        "colormode": "xy",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2019-10-24T12:50:52"
+      },
+      "type": "Extended color light",
+      "name": "Cuisine droite",
+      "modelid": "RS 230 C",
+      "manufacturername": "innr",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "colorgamut": [
+            [
+              0.6800,
+              0.3100
+            ],
+            [
+              0.1100,
+              0.8200
+            ],
+            [
+              0.1300,
+              0.0400
+            ]
+          ],
+          "ct": {
+            "min": 153,
+            "max": 555
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "spotbulb",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "cc:cc:cc:ff:fe:b5:01:63-01",
+      "swversion": "2.7"
+    },
+    "8": {
+      "state": {
+        "on": false,
+        "bri": 254,
+        "hue": 0,
+        "sat": 37,
+        "effect": "none",
+        "xy": [
+          0.3103,
+          0.3299
+        ],
+        "ct": 153,
+        "alert": "select",
+        "colormode": "xy",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2019-10-24T12:51:02"
+      },
+      "type": "Extended color light",
+      "name": "Cuisine millieu",
+      "modelid": "RS 230 C",
+      "manufacturername": "innr",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "colorgamut": [
+            [
+              0.6800,
+              0.3100
+            ],
+            [
+              0.1100,
+              0.8200
+            ],
+            [
+              0.1300,
+              0.0400
+            ]
+          ],
+          "ct": {
+            "min": 153,
+            "max": 555
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "spotbulb",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "cc:cc:cc:ff:fe:9f:da:48-01",
+      "swversion": "2.7"
+    },
+    "9": {
+      "state": {
+        "on": false,
+        "bri": 74,
+        "hue": 50438,
+        "sat": 254,
+        "effect": "none",
+        "xy": [
+          0.3414,
+          0.1059
+        ],
+        "ct": 153,
+        "alert": "select",
+        "colormode": "hs",
+        "mode": "homeautomation",
+        "reachable": true
+      },
+      "swupdate": {
+        "state": "notupdatable",
+        "lastinstall": "2020-06-15T08:25:31"
+      },
+      "type": "Extended color light",
+      "name": "LED Télévision",
+      "modelid": "GL-C-008",
+      "manufacturername": "GLEDOPTO",
+      "productname": "Extended color light",
+      "capabilities": {
+        "certified": false,
+        "control": {
+          "colorgamuttype": "other",
+          "ct": {
+            "min": 155,
+            "max": 495
+          }
+        },
+        "streaming": {
+          "renderer": false,
+          "proxy": false
+        }
+      },
+      "config": {
+        "archetype": "huelightstrip",
+        "function": "mixed",
+        "direction": "omnidirectional"
+      },
+      "uniqueid": "00:12:4b:00:1f:b5:df:e7-0b",
+      "swversion": "2.0.2"
+    }
+  },
+  "groups": {
+    "1": {
+      "name": "Salon",
+      "lights": [
+        "2",
+        "1"
+      ],
+      "sensors": [],
+      "type": "Room",
+      "state": {
+        "all_on": true,
+        "any_on": true
+      },
+      "recycle": false,
+      "class": "Living room",
+      "action": {
+        "on": true,
+        "bri": 42,
+        "hue": 65535,
+        "sat": 0,
+        "effect": "none",
+        "xy": [
+          0.3804,
+          0.3768
+        ],
+        "ct": 247,
+        "alert": "select",
+        "colormode": "hs"
+      }
+    },
+    "2": {
+      "name": "Chambre",
+      "lights": [
+        "3"
+      ],
+      "sensors": [],
+      "type": "Room",
+      "state": {
+        "all_on": true,
+        "any_on": true
+      },
+      "recycle": false,
+      "class": "Bedroom",
+      "action": {
+        "on": true,
+        "bri": 94,
+        "hue": 8402,
+        "sat": 140,
+        "effect": "none",
+        "xy": [
+          0.4575,
+          0.4099
+        ],
+        "ct": 366,
+        "alert": "select",
+        "colormode": "xy"
+      }
+    },
+    "3": {
+      "name": "Pièce principal",
+      "lights": [
+        "2",
+        "1",
+        "5",
+        "7",
+        "8"
+      ],
+      "sensors": [],
+      "type": "Zone",
+      "state": {
+        "all_on": false,
+        "any_on": true
+      },
+      "recycle": false,
+      "class": "Downstairs",
+      "action": {
+        "on": false,
+        "bri": 254,
+        "hue": 0,
+        "sat": 37,
+        "effect": "none",
+        "xy": [
+          0.3103,
+          0.3299
+        ],
+        "ct": 153,
+        "alert": "select",
+        "colormode": "xy"
+      }
+    },
+    "4": {
+      "name": "Cuisine",
+      "lights": [
+        "5",
+        "7",
+        "8"
+      ],
+      "sensors": [],
+      "type": "Room",
+      "state": {
+        "all_on": false,
+        "any_on": false
+      },
+      "recycle": false,
+      "class": "Kitchen",
+      "action": {
+        "on": false,
+        "bri": 254,
+        "hue": 0,
+        "sat": 37,
+        "effect": "none",
+        "xy": [
+          0.3103,
+          0.3299
+        ],
+        "ct": 153,
+        "alert": "select",
+        "colormode": "xy"
+      }
+    },
+    "5": {
+      "name": "Entrée",
+      "lights": [
+        "6"
+      ],
+      "sensors": [],
+      "type": "Room",
+      "state": {
+        "all_on": false,
+        "any_on": false
+      },
+      "recycle": false,
+      "class": "Living room",
+      "action": {
+        "on": false,
+        "bri": 83,
+        "hue": 0,
+        "sat": 199,
+        "effect": "none",
+        "xy": [
+          0.4559,
+          0.4096
+        ],
+        "ct": 367,
+        "alert": "select",
+        "colormode": "ct"
+      }
+    },
+    "6": {
+      "name": "Télé",
+      "lights": [
+        "9"
+      ],
+      "sensors": [],
+      "type": "Room",
+      "state": {
+        "all_on": false,
+        "any_on": false
+      },
+      "recycle": false,
+      "class": "Living room",
+      "action": {
+        "on": false,
+        "bri": 74,
+        "hue": 50438,
+        "sat": 254,
+        "effect": "none",
+        "xy": [
+          0.3414,
+          0.1059
+        ],
+        "ct": 153,
+        "alert": "select",
+        "colormode": "hs"
+      }
+    },
+    "7": {
+      "name": "Salon Entertainment",
+      "lights": [
+        "2",
+        "1"
+      ],
+      "sensors": [],
+      "type": "Entertainment",
+      "state": {
+        "all_on": true,
+        "any_on": true
+      },
+      "recycle": false,
+      "class": "TV",
+      "stream": {
+        "proxymode": "auto",
+        "proxynode": "/lights/2",
+        "active": false,
+        "owner": null
+      },
+      "locations": {
+        "2": [
+          0.00,
+          0.00,
+          0.00
+        ],
+        "1": [
+          0.00,
+          0.00,
+          0.00
+        ]
+      },
+      "action": {
+        "on": true,
+        "bri": 42,
+        "hue": 65535,
+        "sat": 0,
+        "effect": "none",
+        "xy": [
+          0.3804,
+          0.3768
+        ],
+        "ct": 247,
+        "alert": "select",
+        "colormode": "hs"
+      }
+    }
+  },
+  "config": {
+    "name": "Philips hue",
+    "zigbeechannel": 11,
+    "bridgeid": "ECB5FAFFFE0AEF7C",
+    "mac": "ec:b5:fa:0a:ef:7c",
+    "dhcp": true,
+    "ipaddress": "192.168.1.2",
+    "netmask": "255.255.255.0",
+    "gateway": "192.168.1.1",
+    "proxyaddress": "none",
+    "proxyport": 0,
+    "UTC": "2020-11-27T17:42:50",
+    "localtime": "2020-11-27T18:42:50",
+    "timezone": "Europe/Paris",
+    "modelid": "BSB002",
+    "datastoreversion": "98",
+    "swversion": "1941132070",
+    "apiversion": "1.41.0",
+    "swupdate": {
+      "updatestate": 0,
+      "checkforupdate": false,
+      "devicetypes": {
+        "bridge": false,
+        "lights": [],
+        "sensors": []
+      },
+      "url": "",
+      "text": "",
+      "notify": true
+    },
+    "swupdate2": {
+      "checkforupdate": false,
+      "lastchange": "2020-11-24T14:07:20",
+      "bridge": {
+        "state": "noupdates",
+        "lastinstall": "2020-11-24T13:56:29"
+      },
+      "state": "noupdates",
+      "autoinstall": {
+        "updatetime": "T14:00:00",
+        "on": true
+      }
+    },
+    "linkbutton": false,
+    "portalservices": true,
+    "portalconnection": "connected",
+    "portalstate": {
+      "signedon": true,
+      "incoming": false,
+      "outgoing": true,
+      "communication": "disconnected"
+    },
+    "internetservices": {
+      "internet": "connected",
+      "remoteaccess": "connected",
+      "time": "connected",
+      "swupdate": "connected"
+    },
+    "factorynew": false,
+    "replacesbridgeid": null,
+    "backup": {
+      "status": "idle",
+      "errorcode": 0
+    },
+    "starterkitid": "",
+    "whitelist": {
+      "1352d523-818b-42bd-a8a2-3e6c68202f79": {
+        "last use date": "2020-11-10T15:53:20",
+        "create date": "1980-01-01T00:02:29",
+        "name": "Hue 3#iPhone de Kilian"
+      },
+      "e13bb985-db96-473e-8c90-a1ff11d07870": {
+        "last use date": "2019-10-24T21:01:17",
+        "create date": "2019-07-17T19:34:40",
+        "name": "HueParty#iPhone de Kilian"
+      },
+      "611f28e3-521d-49ed-8ee4-157e659537ca": {
+        "last use date": "2020-11-26T02:41:01",
+        "create date": "2019-09-29T20:06:14",
+        "name": "hue-hca-actions-on-google"
+      },
+      "e52d6da2-2539-4120-a0e7-10bdc25856d2": {
+        "last use date": "2019-10-07T16:47:35",
+        "create date": "2019-10-05T17:05:42",
+        "name": "RazerDetectManager#PC"
+      },
+      "a4bb2573-3ee5-42c4-a5eb-2af034e8950d": {
+        "last use date": "2019-10-14T20:40:03",
+        "create date": "2019-10-14T20:40:03",
+        "name": "my_hue_app#iphone kilian"
+      },
+      "2687dbe3-1682-4f41-8986-813956241cd9": {
+        "last use date": "2019-10-14T20:51:02",
+        "create date": "2019-10-14T20:41:49",
+        "name": "api key"
+      },
+      "74ad3bd8-e2c8-4936-b578-b1a99229b52c": {
+        "last use date": "2019-10-24T20:56:35",
+        "create date": "2019-10-24T20:53:20",
+        "name": "iLightShow#iPhone"
+      },
+      "8dadbbb8-7ea8-4180-bfc3-29c49a242d82": {
+        "last use date": "2019-10-24T21:07:14",
+        "create date": "2019-10-24T21:05:32",
+        "name": "huegasm"
+      },
+      "e7442eff-c1c2-4a0f-9f30-95a3b1fe44ee": {
+        "last use date": "2019-11-25T07:24:26",
+        "create date": "2019-11-22T22:28:28",
+        "name": "LightShow-Mac"
+      },
+      "7b4d0234-4730-4a3a-9c8c-b9fe14ff32f0": {
+        "last use date": "2020-01-04T16:15:17",
+        "create date": "2019-11-22T22:47:58",
+        "name": "iLightShow#iPhone"
+      },
+      "cb17d9d7-e45f-4967-aaf8-c45b8637f0a6": {
+        "last use date": "2020-11-27T16:17:05",
+        "create date": "2019-11-25T19:22:32",
+        "name": "hue-alexa-smarthome-skill-v1"
+      },
+      "0e299e8b-15fd-485e-bc29-d416db33b1d7": {
+        "last use date": "2020-03-01T20:17:04",
+        "create date": "2020-02-23T20:54:01",
+        "name": "my_hue_app#iphone peter"
+      },
+      "cc7d2840-e286-4327-929c-82b11aaef993": {
+        "last use date": "2020-02-26T20:11:29",
+        "create date": "2020-02-24T18:59:18",
+        "name": "test"
+      },
+      "c34e7365-5061-4413-9491-92e7c705701f": {
+        "last use date": "2020-07-19T23:14:16",
+        "create date": "2020-07-19T10:29:12",
+        "name": "iConnectHue#iPhone"
+      },
+      "PGreoj6dzluhfJu2GrOwzyui9ubgYPrp-4hCRzp4": {
+        "last use date": "2020-11-27T17:42:50",
+        "create date": "2020-11-27T17:41:27",
+        "name": "insomnia"
+      }
+    }
+  },
+  "schedules": {
+    "1": {
+      "name": "423243lkjnjdsa_G3_1",
+      "description": "XFDani[3][1]423243lkjnjdsa",
+      "command": {
+        "address": "/api/c34e7365-5061-4413-9491-92e7c705701f/sensors/32/state",
+        "body": {
+          "status": 2
+        },
+        "method": "PUT"
+      },
+      "time": "PT00:00:05",
+      "created": "2020-07-19T23:12:41",
+      "status": "disabled",
+      "autodelete": false,
+      "starttime": "2020-07-19T23:13:12",
+      "recycle": false
+    },
+    "3": {
+      "name": "23409adskj43_G3_1",
+      "description": "XFDani[3][1]23409adskj43",
+      "command": {
+        "address": "/api/c34e7365-5061-4413-9491-92e7c705701f/sensors/32/state",
+        "body": {
+          "status": 3
+        },
+        "method": "PUT"
+      },
+      "time": "PT00:00:05",
+      "created": "2020-07-19T23:12:41",
+      "status": "disabled",
+      "autodelete": false,
+      "starttime": "2020-07-19T23:13:02",
+      "recycle": false
+    },
+    "4": {
+      "name": "4329dsak9342_G3_1",
+      "description": "XFDani[3][1]4329dsak9342",
+      "command": {
+        "address": "/api/c34e7365-5061-4413-9491-92e7c705701f/sensors/32/state",
+        "body": {
+          "status": 1
+        },
+        "method": "PUT"
+      },
+      "time": "PT00:00:05",
+      "created": "2020-07-19T23:12:41",
+      "status": "disabled",
+      "autodelete": false,
+      "starttime": "2020-07-19T23:13:07",
+      "recycle": false
+    }
+  },
+  "scenes": {
+    "ILQt7xRQtTkb7P-": {
+      "name": "Détente",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "NPGzi_r01_d01"
+      },
+      "picture": "",
+      "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+      "lastupdated": "2019-10-24T16:30:42",
+      "version": 2
+    },
+    "7w295Ngi6NQlHaN": {
+      "name": "Lecture",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "ZBh1N_r01_d02"
+      },
+      "picture": "",
+      "image": "e101a77f-9984-4f61-aac8-15741983c656",
+      "lastupdated": "2019-10-24T16:30:42",
+      "version": 2
+    },
+    "ANCCUIgg7ydAAl4": {
+      "name": "Détente",
+      "type": "GroupScene",
+      "group": "4",
+      "lights": [
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "T85YF_r04_d01"
+      },
+      "picture": "",
+      "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+      "lastupdated": "2019-10-24T12:53:02",
+      "version": 2
+    },
+    "YaWjCtnnXdOywKU": {
+      "name": "Lecture",
+      "type": "GroupScene",
+      "group": "4",
+      "lights": [
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "yzU8r_r04_d02"
+      },
+      "picture": "",
+      "image": "e101a77f-9984-4f61-aac8-15741983c656",
+      "lastupdated": "2019-10-24T12:53:02",
+      "version": 2
+    },
+    "K0JtZ9n9EJyXNiv": {
+      "name": "Concentration",
+      "type": "GroupScene",
+      "group": "4",
+      "lights": [
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "mo0ky_r04_d03"
+      },
+      "picture": "",
+      "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+      "lastupdated": "2019-10-24T12:53:02",
+      "version": 2
+    },
+    "FCK-yxLF2bTsHK0": {
+      "name": "Stimulation",
+      "type": "GroupScene",
+      "group": "4",
+      "lights": [
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "CapzE_r04_d04"
+      },
+      "picture": "",
+      "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+      "lastupdated": "2019-10-24T12:53:02",
+      "version": 2
+    },
+    "hDCC-8so7DkS9Rp": {
+      "name": "Lumineux",
+      "type": "GroupScene",
+      "group": "4",
+      "lights": [
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "Xmb9Y_r04_d05"
+      },
+      "picture": "",
+      "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+      "lastupdated": "2019-10-24T12:53:02",
+      "version": 2
+    },
+    "NUmaTCvjepTBMVF": {
+      "name": "Atténué",
+      "type": "GroupScene",
+      "group": "4",
+      "lights": [
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "ETFQ1_r04_d06"
+      },
+      "picture": "",
+      "image": "8c74b9ba-6e89-4083-a2a7-b10a1e566fed",
+      "lastupdated": "2019-10-24T12:53:02",
+      "version": 2
+    },
+    "RQ8C56mLifVvJ4L": {
+      "name": "Veilleuse",
+      "type": "GroupScene",
+      "group": "4",
+      "lights": [
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "WnsSh_r04_d07"
+      },
+      "picture": "",
+      "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+      "lastupdated": "2019-10-24T12:53:02",
+      "version": 2
+    },
+    "7NsQqImfUqKXX4J": {
+      "name": "Coucher sur la savane",
+      "type": "GroupScene",
+      "group": "4",
+      "lights": [
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "yOBu5_r04_d15"
+      },
+      "picture": "",
+      "image": "4f2ed241-5aea-4c9d-8028-55d2b111e06f",
+      "lastupdated": "2019-10-24T12:53:02",
+      "version": 2
+    },
+    "JBYvs1F66ovcl-K": {
+      "name": "Crépuscule tropical",
+      "type": "GroupScene",
+      "group": "4",
+      "lights": [
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "gnWr5_r04_d16"
+      },
+      "picture": "",
+      "image": "a6a03e6a-fe6e-45bc-b686-878137f3ba91",
+      "lastupdated": "2019-10-24T12:53:02",
+      "version": 2
+    },
+    "cPPNHK6SjvWhNqN": {
+      "name": "Lumineux",
+      "type": "GroupScene",
+      "group": "2",
+      "lights": [
+        "3"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "nhOVg_r02_d05"
+      },
+      "picture": "",
+      "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+      "lastupdated": "2019-09-29T20:08:11",
+      "version": 2
+    },
+    "rt01BIOAfodOzog": {
+      "name": "Atténué",
+      "type": "GroupScene",
+      "group": "2",
+      "lights": [
+        "3"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "oKgJH_r02_d06"
+      },
+      "picture": "",
+      "image": "8c74b9ba-6e89-4083-a2a7-b10a1e566fed",
+      "lastupdated": "2019-09-29T20:08:11",
+      "version": 2
+    },
+    "HZAOXn9QLpBzt1M": {
+      "name": "Veilleuse",
+      "type": "GroupScene",
+      "group": "2",
+      "lights": [
+        "3"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "tWqE3_r02_d07"
+      },
+      "picture": "",
+      "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+      "lastupdated": "2019-09-29T20:08:11",
+      "version": 2
+    },
+    "ZNLFN41aGLyZKWc": {
+      "name": "Aurore boréale",
+      "type": "GroupScene",
+      "group": "4",
+      "lights": [
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "BCI5j_r04_d17"
+      },
+      "picture": "",
+      "image": "1e42b2e8-d02e-40d2-9c8d-b1fd8216c686",
+      "lastupdated": "2019-10-24T12:53:02",
+      "version": 2
+    },
+    "wZTK3n6xrLzdYDz": {
+      "name": "Printemps Floral",
+      "type": "GroupScene",
+      "group": "4",
+      "lights": [
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "XkSTy_r04_d18"
+      },
+      "picture": "",
+      "image": "adfa9c3e-e9aa-4b65-b9d3-c5b2c0576715",
+      "lastupdated": "2019-10-24T12:53:02",
+      "version": 2
+    },
+    "xUGwmJ-MNQG5Cry": {
+      "name": "Détente",
+      "type": "GroupScene",
+      "group": "5",
+      "lights": [
+        "6"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "uY9Mi_r05_d01"
+      },
+      "picture": "",
+      "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+      "lastupdated": "2019-10-24T12:53:25",
+      "version": 2
+    },
+    "hdcEYwfjlYAiW29": {
+      "name": "Lecture",
+      "type": "GroupScene",
+      "group": "5",
+      "lights": [
+        "6"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "XPHvk_r05_d02"
+      },
+      "picture": "",
+      "image": "e101a77f-9984-4f61-aac8-15741983c656",
+      "lastupdated": "2019-10-24T12:53:25",
+      "version": 2
+    },
+    "EEvYm0XyTweaf0o": {
+      "name": "Concentration",
+      "type": "GroupScene",
+      "group": "5",
+      "lights": [
+        "6"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "G8PrM_r05_d03"
+      },
+      "picture": "",
+      "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+      "lastupdated": "2019-10-24T12:53:25",
+      "version": 2
+    },
+    "CEAX3cMGxBbczb4": {
+      "name": "Stimulation",
+      "type": "GroupScene",
+      "group": "5",
+      "lights": [
+        "6"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "BXEwc_r05_d04"
+      },
+      "picture": "",
+      "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+      "lastupdated": "2019-10-24T12:53:25",
+      "version": 2
+    },
+    "HKN95KspFMCXrt5": {
+      "name": "Lumineux",
+      "type": "GroupScene",
+      "group": "5",
+      "lights": [
+        "6"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "Zwd1C_r05_d05"
+      },
+      "picture": "",
+      "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+      "lastupdated": "2019-10-24T12:53:25",
+      "version": 2
+    },
+    "JY20pXY281OQHLj": {
+      "name": "Atténué",
+      "type": "GroupScene",
+      "group": "5",
+      "lights": [
+        "6"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "GMrPx_r05_d06"
+      },
+      "picture": "",
+      "image": "8c74b9ba-6e89-4083-a2a7-b10a1e566fed",
+      "lastupdated": "2019-10-24T12:53:25",
+      "version": 2
+    },
+    "SlGYTf4rezMoalW": {
+      "name": "Veilleuse",
+      "type": "GroupScene",
+      "group": "5",
+      "lights": [
+        "6"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "Mkdpc_r05_d07"
+      },
+      "picture": "",
+      "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+      "lastupdated": "2019-10-24T12:53:26",
+      "version": 2
+    },
+    "9g84kdDxb3LWjeu": {
+      "name": "Printemps Floral",
+      "type": "GroupScene",
+      "group": "5",
+      "lights": [
+        "6"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "qEd1b_r05_d18"
+      },
+      "picture": "",
+      "image": "adfa9c3e-e9aa-4b65-b9d3-c5b2c0576715",
+      "lastupdated": "2019-10-24T12:53:26",
+      "version": 2
+    },
+    "9QqL1lxUYRpv8rw": {
+      "name": "Coucher sur la savane",
+      "type": "GroupScene",
+      "group": "5",
+      "lights": [
+        "6"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "UEwpa_r05_d15"
+      },
+      "picture": "",
+      "image": "4f2ed241-5aea-4c9d-8028-55d2b111e06f",
+      "lastupdated": "2019-10-24T12:53:26",
+      "version": 2
+    },
+    "6GdTPce5Y4NsV4Q": {
+      "name": "Crépuscule tropical",
+      "type": "GroupScene",
+      "group": "5",
+      "lights": [
+        "6"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "T18xm_r05_d16"
+      },
+      "picture": "",
+      "image": "a6a03e6a-fe6e-45bc-b686-878137f3ba91",
+      "lastupdated": "2019-10-24T12:53:26",
+      "version": 2
+    },
+    "9HPVvtuuWzVjufD": {
+      "name": "Aurore boréale",
+      "type": "GroupScene",
+      "group": "5",
+      "lights": [
+        "6"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "0cjZf_r05_d17"
+      },
+      "picture": "",
+      "image": "1e42b2e8-d02e-40d2-9c8d-b1fd8216c686",
+      "lastupdated": "2019-10-24T12:53:26",
+      "version": 2
+    },
+    "HlLjWRuqotHXQuK": {
+      "name": "Concentration",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "4924I_r01_d03"
+      },
+      "picture": "",
+      "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+      "lastupdated": "2019-10-24T16:30:43",
+      "version": 2
+    },
+    "hBZJja7kE5UuiM6": {
+      "name": "Stimulation",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "vQmYh_r01_d04"
+      },
+      "picture": "",
+      "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+      "lastupdated": "2019-10-24T16:30:43",
+      "version": 2
+    },
+    "iGwQdivm2Ra8osv": {
+      "name": "Lumineux",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "DI8dd_r01_d05"
+      },
+      "picture": "",
+      "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+      "lastupdated": "2019-10-24T16:30:43",
+      "version": 2
+    },
+    "02SdBME4iLyRF8s": {
+      "name": "Atténué",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "EkIRV_r01_d06"
+      },
+      "picture": "",
+      "image": "8c74b9ba-6e89-4083-a2a7-b10a1e566fed",
+      "lastupdated": "2019-10-24T16:30:43",
+      "version": 2
+    },
+    "gNJAsrk5DAYTIFf": {
+      "name": "Veilleuse",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "1qCQe_r01_d07"
+      },
+      "picture": "",
+      "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+      "lastupdated": "2019-10-24T16:30:43",
+      "version": 2
+    },
+    "lTjQSo5W7ggR0Uw": {
+      "name": "Printemps Floral",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "trnor_r01_d18"
+      },
+      "picture": "",
+      "image": "adfa9c3e-e9aa-4b65-b9d3-c5b2c0576715",
+      "lastupdated": "2019-10-24T16:30:43",
+      "version": 2
+    },
+    "4DzoVVWwp2OgyC0": {
+      "name": "Coucher sur la savane",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "5X9Wm_r01_d15"
+      },
+      "picture": "",
+      "image": "4f2ed241-5aea-4c9d-8028-55d2b111e06f",
+      "lastupdated": "2019-10-24T16:30:43",
+      "version": 2
+    },
+    "B0yS13EqtkyOFZp": {
+      "name": "Crépuscule tropical",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "FliXB_r01_d16"
+      },
+      "picture": "",
+      "image": "a6a03e6a-fe6e-45bc-b686-878137f3ba91",
+      "lastupdated": "2019-10-24T16:30:43",
+      "version": 2
+    },
+    "ebm2pKt1pTbWd2-": {
+      "name": "Aurore boréale",
+      "type": "GroupScene",
+      "group": "1",
+      "lights": [
+        "1",
+        "2"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "qEKmE_r01_d17"
+      },
+      "picture": "",
+      "image": "1e42b2e8-d02e-40d2-9c8d-b1fd8216c686",
+      "lastupdated": "2019-10-24T16:30:43",
+      "version": 2
+    },
+    "6cR-22WhrlPwf2s": {
+      "name": "Détente",
+      "type": "GroupScene",
+      "group": "3",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "Gcyvp_r03_d01"
+      },
+      "picture": "",
+      "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+      "lastupdated": "2019-10-24T16:31:59",
+      "version": 2
+    },
+    "d8P9gG8iVLRqIsJ": {
+      "name": "Lecture",
+      "type": "GroupScene",
+      "group": "3",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "qt2MK_r03_d02"
+      },
+      "picture": "",
+      "image": "e101a77f-9984-4f61-aac8-15741983c656",
+      "lastupdated": "2019-10-24T16:31:59",
+      "version": 2
+    },
+    "KJdTjSH3l5kyeG9": {
+      "name": "Concentration",
+      "type": "GroupScene",
+      "group": "3",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "9bdtv_r03_d03"
+      },
+      "picture": "",
+      "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+      "lastupdated": "2019-10-24T16:31:59",
+      "version": 2
+    },
+    "syg4S7sqEnLd4QE": {
+      "name": "Stimulation",
+      "type": "GroupScene",
+      "group": "3",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "9W3l2_r03_d04"
+      },
+      "picture": "",
+      "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+      "lastupdated": "2019-10-24T16:31:59",
+      "version": 2
+    },
+    "bRxHT1L6QqJgD0o": {
+      "name": "Lumineux",
+      "type": "GroupScene",
+      "group": "3",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "YNLZF_r03_d05"
+      },
+      "picture": "",
+      "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+      "lastupdated": "2019-10-24T16:31:59",
+      "version": 2
+    },
+    "cLlpJKvCVDhja58": {
+      "name": "Atténué",
+      "type": "GroupScene",
+      "group": "3",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "0qaYI_r03_d06"
+      },
+      "picture": "",
+      "image": "8c74b9ba-6e89-4083-a2a7-b10a1e566fed",
+      "lastupdated": "2019-10-24T16:32:00",
+      "version": 2
+    },
+    "aDs53yU7x0g1yiV": {
+      "name": "Veilleuse",
+      "type": "GroupScene",
+      "group": "3",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "XOx9S_r03_d07"
+      },
+      "picture": "",
+      "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+      "lastupdated": "2019-10-24T16:32:00",
+      "version": 2
+    },
+    "LkHYYp6Mvj0abHV": {
+      "name": "Aurore boréale",
+      "type": "GroupScene",
+      "group": "3",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "MXXQY_r03_d17"
+      },
+      "picture": "",
+      "image": "1e42b2e8-d02e-40d2-9c8d-b1fd8216c686",
+      "lastupdated": "2019-10-24T16:32:00",
+      "version": 2
+    },
+    "HTbM5WDqDSi7MkV": {
+      "name": "Coucher sur la savane",
+      "type": "GroupScene",
+      "group": "3",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "CFJi5_r03_d15"
+      },
+      "picture": "",
+      "image": "4f2ed241-5aea-4c9d-8028-55d2b111e06f",
+      "lastupdated": "2019-10-24T16:32:00",
+      "version": 2
+    },
+    "ShtV6H2uBnyeJJd": {
+      "name": "Crépuscule tropical",
+      "type": "GroupScene",
+      "group": "3",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "pjFZe_r03_d16"
+      },
+      "picture": "",
+      "image": "a6a03e6a-fe6e-45bc-b686-878137f3ba91",
+      "lastupdated": "2019-10-24T16:32:00",
+      "version": 2
+    },
+    "Nixuge72f6eL-q8": {
+      "name": "Printemps Floral",
+      "type": "GroupScene",
+      "group": "3",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "8fS54_r03_d18"
+      },
+      "picture": "",
+      "image": "adfa9c3e-e9aa-4b65-b9d3-c5b2c0576715",
+      "lastupdated": "2019-10-24T16:32:00",
+      "version": 2
+    },
+    "eWWU6MUJCEM6nQr": {
+      "name": "Zen",
+      "type": "GroupScene",
+      "group": "3",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "NboSQ_r03_d99"
+      },
+      "picture": "",
+      "lastupdated": "2019-10-24T18:07:53",
+      "version": 2
+    },
+    "3N2mxUrPtPd45Sl": {
+      "name": "Scene recoveryScene ",
+      "type": "GroupScene",
+      "group": "5",
+      "lights": [
+        "6"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": true,
+      "locked": false,
+      "appdata": {},
+      "picture": "",
+      "lastupdated": "2019-12-05T17:23:27",
+      "version": 2
+    },
+    "V8XKck0tcZ9chP1": {
+      "name": "Love",
+      "type": "GroupScene",
+      "group": "3",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "25pXJ_r03_d99"
+      },
+      "picture": "",
+      "lastupdated": "2019-12-27T12:51:34",
+      "version": 2
+    },
+    "QV15QdBR038Em8K": {
+      "name": "Scene recoveryScene ",
+      "type": "GroupScene",
+      "group": "5",
+      "lights": [
+        "6"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": true,
+      "locked": true,
+      "appdata": {},
+      "picture": "",
+      "lastupdated": "2020-11-27T15:23:45",
+      "version": 2
+    },
+    "4SZG7yeiGX6xHIY": {
+      "name": "Scene recoveryScene ",
+      "type": "GroupScene",
+      "group": "5",
+      "lights": [
+        "6"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": true,
+      "locked": true,
+      "appdata": {},
+      "picture": "",
+      "lastupdated": "2020-11-27T15:23:45",
+      "version": 2
+    },
+    "3eQppsDLUQ8ZfZp": {
+      "name": "Tamisé",
+      "type": "GroupScene",
+      "group": "3",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "H6Fu7_r03_d99"
+      },
+      "picture": "",
+      "lastupdated": "2019-12-27T12:51:20",
+      "version": 2
+    },
+    "aopDJHFRsLZWa0L": {
+      "name": "Détente",
+      "type": "GroupScene",
+      "group": "6",
+      "lights": [
+        "9"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "Qwddc_r06_d01"
+      },
+      "picture": "",
+      "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+      "lastupdated": "2020-06-15T08:27:01",
+      "version": 2
+    },
+    "jGMm38QMkxDIsqi": {
+      "name": "Lecture",
+      "type": "GroupScene",
+      "group": "6",
+      "lights": [
+        "9"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "9Symj_r06_d02"
+      },
+      "picture": "",
+      "image": "e101a77f-9984-4f61-aac8-15741983c656",
+      "lastupdated": "2020-06-15T08:27:02",
+      "version": 2
+    },
+    "-otxtPKBQaG4qO0": {
+      "name": "Concentration",
+      "type": "GroupScene",
+      "group": "6",
+      "lights": [
+        "9"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "h8T8g_r06_d03"
+      },
+      "picture": "",
+      "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+      "lastupdated": "2020-06-15T08:27:02",
+      "version": 2
+    },
+    "LHzMcXDQ1lJdixE": {
+      "name": "Stimulation",
+      "type": "GroupScene",
+      "group": "6",
+      "lights": [
+        "9"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "LpMJW_r06_d04"
+      },
+      "picture": "",
+      "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+      "lastupdated": "2020-06-15T08:27:02",
+      "version": 2
+    },
+    "zJWKRZbxDPPZpY2": {
+      "name": "Lumineux",
+      "type": "GroupScene",
+      "group": "6",
+      "lights": [
+        "9"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "Yygmi_r06_d05"
+      },
+      "picture": "",
+      "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+      "lastupdated": "2020-06-15T08:27:02",
+      "version": 2
+    },
+    "W23fsm8WUquWU-8": {
+      "name": "Atténué",
+      "type": "GroupScene",
+      "group": "6",
+      "lights": [
+        "9"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "1dqaQ_r06_d06"
+      },
+      "picture": "",
+      "image": "8c74b9ba-6e89-4083-a2a7-b10a1e566fed",
+      "lastupdated": "2020-06-15T08:27:02",
+      "version": 2
+    },
+    "6D-Qm5PXlmYuNeS": {
+      "name": "Veilleuse",
+      "type": "GroupScene",
+      "group": "6",
+      "lights": [
+        "9"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "yCqGg_r06_d07"
+      },
+      "picture": "",
+      "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+      "lastupdated": "2020-06-15T08:27:02",
+      "version": 2
+    },
+    "Czr4f4s4tvOa0Od": {
+      "name": "Coucher sur la savane",
+      "type": "GroupScene",
+      "group": "6",
+      "lights": [
+        "9"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "eoJuQ_r06_d15"
+      },
+      "picture": "",
+      "image": "4f2ed241-5aea-4c9d-8028-55d2b111e06f",
+      "lastupdated": "2020-06-15T08:27:02",
+      "version": 2
+    },
+    "tDDkD5UVWFFRDP8": {
+      "name": "Crépuscule tropical",
+      "type": "GroupScene",
+      "group": "6",
+      "lights": [
+        "9"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "4jYjA_r06_d16"
+      },
+      "picture": "",
+      "image": "a6a03e6a-fe6e-45bc-b686-878137f3ba91",
+      "lastupdated": "2020-06-15T08:27:02",
+      "version": 2
+    },
+    "q0xKMxdZOr9oZGx": {
+      "name": "Aurore boréale",
+      "type": "GroupScene",
+      "group": "6",
+      "lights": [
+        "9"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "7XKyE_r06_d17"
+      },
+      "picture": "",
+      "image": "1e42b2e8-d02e-40d2-9c8d-b1fd8216c686",
+      "lastupdated": "2020-06-15T08:27:02",
+      "version": 2
+    },
+    "8WHvmvGnfvNm5Zn": {
+      "name": "Printemps Floral",
+      "type": "GroupScene",
+      "group": "6",
+      "lights": [
+        "9"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "kWwkn_r06_d18"
+      },
+      "picture": "",
+      "image": "adfa9c3e-e9aa-4b65-b9d3-c5b2c0576715",
+      "lastupdated": "2020-06-15T08:27:02",
+      "version": 2
+    },
+    "g4WS9zCax6GkiO0": {
+      "name": "Détente",
+      "type": "GroupScene",
+      "group": "2",
+      "lights": [
+        "3"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "OL3by_r02_d01"
+      },
+      "picture": "",
+      "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+      "lastupdated": "2020-07-18T21:47:21",
+      "version": 2
+    },
+    "plQ1rG16NWdw89J": {
+      "name": "Lecture",
+      "type": "GroupScene",
+      "group": "2",
+      "lights": [
+        "3"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "zE56h_r02_d02"
+      },
+      "picture": "",
+      "image": "e101a77f-9984-4f61-aac8-15741983c656",
+      "lastupdated": "2020-07-18T21:47:21",
+      "version": 2
+    },
+    "XHPHx0mehqpnnpa": {
+      "name": "Concentration",
+      "type": "GroupScene",
+      "group": "2",
+      "lights": [
+        "3"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "tzdai_r02_d03"
+      },
+      "picture": "",
+      "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+      "lastupdated": "2020-07-18T21:47:22",
+      "version": 2
+    },
+    "kggrmzsW0ezwbJs": {
+      "name": "Stimulation",
+      "type": "GroupScene",
+      "group": "2",
+      "lights": [
+        "3"
+      ],
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "gJ50y_r02_d04"
+      },
+      "picture": "",
+      "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+      "lastupdated": "2020-07-18T21:47:22",
+      "version": 2
+    },
+    "oSoCYHvcoD9ZEwc": {
+      "name": "Fruits-Animation",
+      "type": "LightScene",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "recycle": true,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "234daee5_CA03000"
+      },
+      "picture": "",
+      "lastupdated": "2020-07-19T23:12:35",
+      "version": 2
+    },
+    "MSCMmHgPpURm-NS": {
+      "name": "Fruits-Animation",
+      "type": "LightScene",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "recycle": true,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "324asd33_CA03000"
+      },
+      "picture": "",
+      "lastupdated": "2020-07-19T23:12:35",
+      "version": 2
+    },
+    "KHmwjQrk1vhdY3o": {
+      "name": "Fruits-Animation",
+      "type": "LightScene",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "recycle": true,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "dsajkh23_CA03000"
+      },
+      "picture": "",
+      "lastupdated": "2020-07-19T23:12:35",
+      "version": 2
+    },
+    "7xKK3Psh0lXQ1sA": {
+      "name": "8 lights-off--Switch",
+      "type": "LightScene",
+      "lights": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "recycle": false,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "7E934DA0:DA00000"
+      },
+      "picture": "",
+      "lastupdated": "2020-07-19T11:14:28",
+      "version": 2
+    },
+    "HFKzs7xyGaX04zY": {
+      "name": "Fruits-Animation",
+      "type": "LightScene",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "recycle": true,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "dscdjh32_CA03000"
+      },
+      "picture": "",
+      "lastupdated": "2020-07-19T23:12:35",
+      "version": 2
+    },
+    "Pe1EpJ8qHenzUTO": {
+      "name": "Tropical sunset-Animation",
+      "type": "LightScene",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "recycle": true,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "423243lk_CA03000"
+      },
+      "picture": "",
+      "lastupdated": "2020-07-19T23:12:41",
+      "version": 2
+    },
+    "9WlPWpmWOsx7t4Q": {
+      "name": "Tropical sunset-Animation",
+      "type": "LightScene",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "recycle": true,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "23409ads_CA03000"
+      },
+      "picture": "",
+      "lastupdated": "2020-07-19T23:12:41",
+      "version": 2
+    },
+    "3WYWG4A29z2f4si": {
+      "name": "Tropical sunset-Animation",
+      "type": "LightScene",
+      "lights": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "recycle": true,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "4329dsak_CA03000"
+      },
+      "picture": "",
+      "lastupdated": "2020-07-19T23:12:41",
+      "version": 2
+    }
+  },
+  "rules": {
+    "1": {
+      "name": "XFDDimmer3Btn1000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T10:50:46",
+      "lasttriggered": "2020-11-27T16:18:30",
+      "timestriggered": 19,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/3/state/buttonevent",
+          "operator": "eq",
+          "value": "1000"
+        },
+        {
+          "address": "/sensors/3/state/lastupdated",
+          "operator": "dx"
+        },
+        {
+          "address": "/sensors/29/state/status",
+          "operator": "eq",
+          "value": "0"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/29/state",
+          "method": "PUT",
+          "body": {
+            "status": 1
+          }
+        }
+      ]
+    },
+    "2": {
+      "name": "XFDDimmer3Btn2000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T10:50:46",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/3/state/buttonevent",
+          "operator": "eq",
+          "value": "2000"
+        },
+        {
+          "address": "/sensors/3/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/1/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": 30,
+            "transitiontime": 4
+          }
+        },
+        {
+          "address": "/groups/6/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": 30,
+            "transitiontime": 4
+          }
+        }
+      ]
+    },
+    "3": {
+      "name": "XFDDimmer3Btn2001",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T10:50:46",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/3/state/buttonevent",
+          "operator": "eq",
+          "value": "2001"
+        },
+        {
+          "address": "/sensors/3/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/1/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": 55,
+            "transitiontime": 9
+          }
+        },
+        {
+          "address": "/groups/6/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": 55,
+            "transitiontime": 9
+          }
+        }
+      ]
+    },
+    "4": {
+      "name": "XFDDimmer3Btn3000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T10:50:46",
+      "lasttriggered": "2020-11-27T16:18:33",
+      "timestriggered": 17,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/3/state/buttonevent",
+          "operator": "eq",
+          "value": "3000"
+        },
+        {
+          "address": "/sensors/3/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/1/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": -30,
+            "transitiontime": 4
+          }
+        },
+        {
+          "address": "/groups/6/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": -30,
+            "transitiontime": 4
+          }
+        }
+      ]
+    },
+    "5": {
+      "name": "XFDDimmer3Btn3001",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T10:50:47",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/3/state/buttonevent",
+          "operator": "eq",
+          "value": "3001"
+        },
+        {
+          "address": "/sensors/3/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/1/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": -55,
+            "transitiontime": 9
+          }
+        },
+        {
+          "address": "/groups/6/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": -55,
+            "transitiontime": 9
+          }
+        }
+      ]
+    },
+    "6": {
+      "name": "XFDDimmer3Btn4000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T10:50:47",
+      "lasttriggered": "2020-11-27T09:45:44",
+      "timestriggered": 15,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/3/state/buttonevent",
+          "operator": "eq",
+          "value": "4000"
+        },
+        {
+          "address": "/sensors/3/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/1/action",
+          "method": "PUT",
+          "body": {
+            "on": false
+          }
+        },
+        {
+          "address": "/groups/6/action",
+          "method": "PUT",
+          "body": {
+            "on": false
+          }
+        }
+      ]
+    },
+    "7": {
+      "name": "XFDDimmer3Btn1000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T10:53:24",
+      "lasttriggered": "2020-11-27T16:18:31",
+      "timestriggered": 18,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/29/state/status",
+          "operator": "eq",
+          "value": "1"
+        },
+        {
+          "address": "/sensors/3/state/buttonevent",
+          "operator": "eq",
+          "value": "1000"
+        },
+        {
+          "address": "/sensors/3/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/6/action",
+          "method": "PUT",
+          "body": {
+            "on": false
+          }
+        },
+        {
+          "address": "/groups/1/action",
+          "method": "PUT",
+          "body": {
+            "hue": 65535,
+            "bri": 128,
+            "sat": 0,
+            "transitiontime": 4,
+            "on": true
+          }
+        },
+        {
+          "address": "/sensors/29/state",
+          "method": "PUT",
+          "body": {
+            "status": 2
+          }
+        }
+      ]
+    },
+    "8": {
+      "name": "XFDDimmer30Btn1000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T11:03:20",
+      "lasttriggered": "2020-11-27T17:06:52",
+      "timestriggered": 11,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/30/state/buttonevent",
+          "operator": "eq",
+          "value": "1000"
+        },
+        {
+          "address": "/sensors/30/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/4/action",
+          "method": "PUT",
+          "body": {
+            "on": true
+          }
+        }
+      ]
+    },
+    "9": {
+      "name": "XFDDimmer3Btn1000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T10:56:05",
+      "lasttriggered": "2020-11-26T17:03:34",
+      "timestriggered": 1,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/29/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/3/state/buttonevent",
+          "operator": "eq",
+          "value": "1000"
+        },
+        {
+          "address": "/sensors/3/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/6/action",
+          "method": "PUT",
+          "body": {
+            "on": false
+          }
+        },
+        {
+          "address": "/groups/1/action",
+          "method": "PUT",
+          "body": {
+            "hue": 65535,
+            "bri": 254,
+            "sat": 0,
+            "transitiontime": 4,
+            "on": true
+          }
+        },
+        {
+          "address": "/sensors/29/state",
+          "method": "PUT",
+          "body": {
+            "status": 3
+          }
+        }
+      ]
+    },
+    "10": {
+      "name": "XFDDimmer30Btn2000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T11:03:21",
+      "lasttriggered": "2020-11-27T11:31:42",
+      "timestriggered": 14,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/30/state/buttonevent",
+          "operator": "eq",
+          "value": "2000"
+        },
+        {
+          "address": "/sensors/30/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/4/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": 30,
+            "transitiontime": 4
+          }
+        }
+      ]
+    },
+    "11": {
+      "name": "XFDDimmer30Btn2001",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T11:03:21",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/30/state/buttonevent",
+          "operator": "eq",
+          "value": "2001"
+        },
+        {
+          "address": "/sensors/30/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/4/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": 55,
+            "transitiontime": 9
+          }
+        }
+      ]
+    },
+    "12": {
+      "name": "XFDDimmer30Btn3000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T11:03:21",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/30/state/buttonevent",
+          "operator": "eq",
+          "value": "3000"
+        },
+        {
+          "address": "/sensors/30/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/4/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": -30,
+            "transitiontime": 4
+          }
+        }
+      ]
+    },
+    "13": {
+      "name": "XFDDimmer30Btn3001",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T11:03:21",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/30/state/buttonevent",
+          "operator": "eq",
+          "value": "3001"
+        },
+        {
+          "address": "/sensors/30/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/4/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": -55,
+            "transitiontime": 9
+          }
+        }
+      ]
+    },
+    "14": {
+      "name": "13:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:32",
+      "lasttriggered": "2020-11-27T15:23:21",
+      "timestriggered": 53,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "dx"
+        },
+        {
+          "address": "/sensors/14/state/dark",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/config/localtime",
+          "operator": "in",
+          "value": "T08:00:00/T23:00:00"
+        },
+        {
+          "address": "/sensors/18/state/status",
+          "operator": "lt",
+          "value": "1"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "scene": "HKN95KspFMCXrt5"
+          }
+        },
+        {
+          "address": "/sensors/18/state",
+          "method": "PUT",
+          "body": {
+            "status": 1
+          }
+        }
+      ]
+    },
+    "15": {
+      "name": "14:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:32",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/14/state/dark",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/sensors/14/state/dark",
+          "operator": "dx"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/config/localtime",
+          "operator": "in",
+          "value": "T08:00:00/T23:00:00"
+        },
+        {
+          "address": "/sensors/18/state/status",
+          "operator": "lt",
+          "value": "1"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "scene": "HKN95KspFMCXrt5"
+          }
+        },
+        {
+          "address": "/sensors/18/state",
+          "method": "PUT",
+          "body": {
+            "status": 1
+          }
+        }
+      ]
+    },
+    "16": {
+      "name": "13:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:33",
+      "lasttriggered": "2020-11-27T15:23:21",
+      "timestriggered": 53,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "dx"
+        },
+        {
+          "address": "/sensors/14/state/dark",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/config/localtime",
+          "operator": "in",
+          "value": "T08:00:00/T23:00:00"
+        },
+        {
+          "address": "/sensors/19/state/status",
+          "operator": "lt",
+          "value": "1"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "scene": "HKN95KspFMCXrt5"
+          }
+        },
+        {
+          "address": "/sensors/19/state",
+          "method": "PUT",
+          "body": {
+            "status": 1
+          }
+        }
+      ]
+    },
+    "17": {
+      "name": "15:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:33",
+      "lasttriggered": "2020-11-26T01:12:13",
+      "timestriggered": 4,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "dx"
+        },
+        {
+          "address": "/sensors/14/state/dark",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/config/localtime",
+          "operator": "in",
+          "value": "T23:00:00/T08:00:00"
+        },
+        {
+          "address": "/sensors/18/state/status",
+          "operator": "lt",
+          "value": "1"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "scene": "JY20pXY281OQHLj"
+          }
+        },
+        {
+          "address": "/sensors/18/state",
+          "method": "PUT",
+          "body": {
+            "status": 3
+          }
+        }
+      ]
+    },
+    "18": {
+      "name": "14:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:34",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/14/state/dark",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/sensors/14/state/dark",
+          "operator": "dx"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/config/localtime",
+          "operator": "in",
+          "value": "T08:00:00/T23:00:00"
+        },
+        {
+          "address": "/sensors/19/state/status",
+          "operator": "lt",
+          "value": "1"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "scene": "HKN95KspFMCXrt5"
+          }
+        },
+        {
+          "address": "/sensors/19/state",
+          "method": "PUT",
+          "body": {
+            "status": 1
+          }
+        }
+      ]
+    },
+    "19": {
+      "name": "16:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:34",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/14/state/dark",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/sensors/14/state/dark",
+          "operator": "dx"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/config/localtime",
+          "operator": "in",
+          "value": "T23:00:00/T08:00:00"
+        },
+        {
+          "address": "/sensors/18/state/status",
+          "operator": "lt",
+          "value": "1"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "scene": "JY20pXY281OQHLj"
+          }
+        },
+        {
+          "address": "/sensors/18/state",
+          "method": "PUT",
+          "body": {
+            "status": 3
+          }
+        }
+      ]
+    },
+    "20": {
+      "name": "15:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:34",
+      "lasttriggered": "2020-11-26T01:12:13",
+      "timestriggered": 4,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "dx"
+        },
+        {
+          "address": "/sensors/14/state/dark",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/config/localtime",
+          "operator": "in",
+          "value": "T23:00:00/T08:00:00"
+        },
+        {
+          "address": "/sensors/19/state/status",
+          "operator": "lt",
+          "value": "1"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "scene": "JY20pXY281OQHLj"
+          }
+        },
+        {
+          "address": "/sensors/19/state",
+          "method": "PUT",
+          "body": {
+            "status": 3
+          }
+        }
+      ]
+    },
+    "21": {
+      "name": "17:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:34",
+      "lasttriggered": "2020-11-27T15:23:45",
+      "timestriggered": 60,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "false"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "ddx",
+          "value": "PT00:00:15"
+        },
+        {
+          "address": "/config/localtime",
+          "operator": "in",
+          "value": "T08:00:00/T23:00:00"
+        },
+        {
+          "address": "/groups/5/state/any_on",
+          "operator": "eq",
+          "value": "true"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/scenes/QV15QdBR038Em8K",
+          "method": "PUT",
+          "body": {
+            "storelightstate": true
+          }
+        },
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "transitiontime": 4,
+            "bri_inc": -127
+          }
+        },
+        {
+          "address": "/sensors/18/state",
+          "method": "PUT",
+          "body": {
+            "status": 2
+          }
+        }
+      ]
+    },
+    "22": {
+      "name": "16:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:34",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/14/state/dark",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/sensors/14/state/dark",
+          "operator": "dx"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/config/localtime",
+          "operator": "in",
+          "value": "T23:00:00/T08:00:00"
+        },
+        {
+          "address": "/sensors/19/state/status",
+          "operator": "lt",
+          "value": "1"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "scene": "JY20pXY281OQHLj"
+          }
+        },
+        {
+          "address": "/sensors/19/state",
+          "method": "PUT",
+          "body": {
+            "status": 3
+          }
+        }
+      ]
+    },
+    "23": {
+      "name": "18:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:34",
+      "lasttriggered": "2020-11-26T01:12:47",
+      "timestriggered": 4,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "false"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "ddx",
+          "value": "PT00:00:15"
+        },
+        {
+          "address": "/config/localtime",
+          "operator": "in",
+          "value": "T23:00:00/T08:00:00"
+        },
+        {
+          "address": "/groups/5/state/any_on",
+          "operator": "eq",
+          "value": "true"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/scenes/QV15QdBR038Em8K",
+          "method": "PUT",
+          "body": {
+            "storelightstate": true
+          }
+        },
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "transitiontime": 4,
+            "bri_inc": -127
+          }
+        },
+        {
+          "address": "/sensors/18/state",
+          "method": "PUT",
+          "body": {
+            "status": 4
+          }
+        }
+      ]
+    },
+    "24": {
+      "name": "17:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:34",
+      "lasttriggered": "2020-11-27T15:23:45",
+      "timestriggered": 60,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "false"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "ddx",
+          "value": "PT00:00:15"
+        },
+        {
+          "address": "/config/localtime",
+          "operator": "in",
+          "value": "T08:00:00/T23:00:00"
+        },
+        {
+          "address": "/groups/5/state/any_on",
+          "operator": "eq",
+          "value": "true"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/scenes/4SZG7yeiGX6xHIY",
+          "method": "PUT",
+          "body": {
+            "storelightstate": true
+          }
+        },
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "transitiontime": 4,
+            "bri_inc": -127
+          }
+        },
+        {
+          "address": "/sensors/19/state",
+          "method": "PUT",
+          "body": {
+            "status": 2
+          }
+        }
+      ]
+    },
+    "25": {
+      "name": "19:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:34",
+      "lasttriggered": "2020-11-25T09:33:56",
+      "timestriggered": 7,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "dx"
+        },
+        {
+          "address": "/sensors/18/state/status",
+          "operator": "eq",
+          "value": "2"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "scene": "QV15QdBR038Em8K"
+          }
+        },
+        {
+          "address": "/sensors/18/state",
+          "method": "PUT",
+          "body": {
+            "status": 1
+          }
+        }
+      ]
+    },
+    "26": {
+      "name": "18:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:34",
+      "lasttriggered": "2020-11-26T01:12:47",
+      "timestriggered": 4,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "false"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "ddx",
+          "value": "PT00:00:15"
+        },
+        {
+          "address": "/config/localtime",
+          "operator": "in",
+          "value": "T23:00:00/T08:00:00"
+        },
+        {
+          "address": "/groups/5/state/any_on",
+          "operator": "eq",
+          "value": "true"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/scenes/4SZG7yeiGX6xHIY",
+          "method": "PUT",
+          "body": {
+            "storelightstate": true
+          }
+        },
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "transitiontime": 4,
+            "bri_inc": -127
+          }
+        },
+        {
+          "address": "/sensors/19/state",
+          "method": "PUT",
+          "body": {
+            "status": 4
+          }
+        }
+      ]
+    },
+    "27": {
+      "name": "20:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:34",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "dx"
+        },
+        {
+          "address": "/sensors/18/state/status",
+          "operator": "gt",
+          "value": "3"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "scene": "QV15QdBR038Em8K"
+          }
+        },
+        {
+          "address": "/sensors/18/state",
+          "method": "PUT",
+          "body": {
+            "status": 3
+          }
+        }
+      ]
+    },
+    "28": {
+      "name": "19:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:34",
+      "lasttriggered": "2020-11-25T09:33:56",
+      "timestriggered": 7,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "dx"
+        },
+        {
+          "address": "/sensors/19/state/status",
+          "operator": "eq",
+          "value": "2"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "scene": "4SZG7yeiGX6xHIY"
+          }
+        },
+        {
+          "address": "/sensors/19/state",
+          "method": "PUT",
+          "body": {
+            "status": 1
+          }
+        }
+      ]
+    },
+    "29": {
+      "name": "21:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:35",
+      "lasttriggered": "2020-11-27T15:24:16",
+      "timestriggered": 53,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/18/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/18/state/status",
+          "operator": "ddx",
+          "value": "PT00:00:30"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "false"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "on": false
+          }
+        },
+        {
+          "address": "/sensors/18/state",
+          "method": "PUT",
+          "body": {
+            "status": 0
+          }
+        }
+      ]
+    },
+    "30": {
+      "name": "20:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:35",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "true"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "dx"
+        },
+        {
+          "address": "/sensors/19/state/status",
+          "operator": "gt",
+          "value": "3"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "scene": "4SZG7yeiGX6xHIY"
+          }
+        },
+        {
+          "address": "/sensors/19/state",
+          "method": "PUT",
+          "body": {
+            "status": 3
+          }
+        }
+      ]
+    },
+    "31": {
+      "name": "22:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:35",
+      "lasttriggered": "2020-11-26T01:13:17",
+      "timestriggered": 4,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/18/state/status",
+          "operator": "eq",
+          "value": "4"
+        },
+        {
+          "address": "/sensors/18/state/status",
+          "operator": "ddx",
+          "value": "PT00:00:30"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "false"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "on": false
+          }
+        },
+        {
+          "address": "/sensors/18/state",
+          "method": "PUT",
+          "body": {
+            "status": 0
+          }
+        }
+      ]
+    },
+    "32": {
+      "name": "21:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:35",
+      "lasttriggered": "2020-11-27T15:24:16",
+      "timestriggered": 53,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/19/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/19/state/status",
+          "operator": "ddx",
+          "value": "PT00:00:30"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "false"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "on": false
+          }
+        },
+        {
+          "address": "/sensors/19/state",
+          "method": "PUT",
+          "body": {
+            "status": 0
+          }
+        }
+      ]
+    },
+    "33": {
+      "name": "23:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:35",
+      "lasttriggered": "2020-11-27T15:24:16",
+      "timestriggered": 59,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "false"
+        },
+        {
+          "address": "/groups/5/state/any_on",
+          "operator": "eq",
+          "value": "false"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/18/state",
+          "method": "PUT",
+          "body": {
+            "status": 0
+          }
+        }
+      ]
+    },
+    "34": {
+      "name": "22:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:35",
+      "lasttriggered": "2020-11-26T01:13:17",
+      "timestriggered": 4,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/19/state/status",
+          "operator": "eq",
+          "value": "4"
+        },
+        {
+          "address": "/sensors/19/state/status",
+          "operator": "ddx",
+          "value": "PT00:00:30"
+        },
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "false"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/5/action",
+          "method": "PUT",
+          "body": {
+            "on": false
+          }
+        },
+        {
+          "address": "/sensors/19/state",
+          "method": "PUT",
+          "body": {
+            "status": 0
+          }
+        }
+      ]
+    },
+    "35": {
+      "name": "23:",
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "created": "2019-12-05T18:06:35",
+      "lasttriggered": "2020-11-27T15:24:16",
+      "timestriggered": 59,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/13/state/presence",
+          "operator": "eq",
+          "value": "false"
+        },
+        {
+          "address": "/groups/5/state/any_on",
+          "operator": "eq",
+          "value": "false"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/19/state",
+          "method": "PUT",
+          "body": {
+            "status": 0
+          }
+        }
+      ]
+    },
+    "36": {
+      "name": "XFDDimmer20Btn1000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T23:13:42",
+      "lasttriggered": "2020-11-26T20:16:47",
+      "timestriggered": 9,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/20/state/buttonevent",
+          "operator": "eq",
+          "value": "1000"
+        },
+        {
+          "address": "/sensors/20/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/2/action",
+          "method": "PUT",
+          "body": {
+            "on": true
+          }
+        }
+      ]
+    },
+    "37": {
+      "name": "XFDDimmer20Btn2000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T23:13:42",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/20/state/buttonevent",
+          "operator": "eq",
+          "value": "2000"
+        },
+        {
+          "address": "/sensors/20/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/2/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": 30,
+            "transitiontime": 4
+          }
+        }
+      ]
+    },
+    "38": {
+      "name": "XFDDimmer20Btn2001",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T23:13:42",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/20/state/buttonevent",
+          "operator": "eq",
+          "value": "2001"
+        },
+        {
+          "address": "/sensors/20/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/2/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": 55,
+            "transitiontime": 9
+          }
+        }
+      ]
+    },
+    "39": {
+      "name": "XFDDimmer20Btn3000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T23:13:42",
+      "lasttriggered": "2020-11-24T22:26:45",
+      "timestriggered": 1,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/20/state/buttonevent",
+          "operator": "eq",
+          "value": "3000"
+        },
+        {
+          "address": "/sensors/20/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/2/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": -30,
+            "transitiontime": 4
+          }
+        }
+      ]
+    },
+    "40": {
+      "name": "XFDDimmer20Btn3001",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T23:13:42",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/20/state/buttonevent",
+          "operator": "eq",
+          "value": "3001"
+        },
+        {
+          "address": "/sensors/20/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/2/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": -55,
+            "transitiontime": 9
+          }
+        }
+      ]
+    },
+    "41": {
+      "name": "XFDDimmer20Btn4000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T23:13:42",
+      "lasttriggered": "2020-11-27T00:30:33",
+      "timestriggered": 11,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/20/state/buttonevent",
+          "operator": "eq",
+          "value": "4000"
+        },
+        {
+          "address": "/sensors/20/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/2/action",
+          "method": "PUT",
+          "body": {
+            "on": false
+          }
+        }
+      ]
+    },
+    "47": {
+      "name": "XFDDimmer23Btn1000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T10:40:58",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/23/state/buttonevent",
+          "operator": "eq",
+          "value": "1000"
+        },
+        {
+          "address": "/sensors/23/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/3/action",
+          "method": "PUT",
+          "body": {
+            "on": true
+          }
+        }
+      ]
+    },
+    "48": {
+      "name": "XFDDimmer23Btn2000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T10:40:58",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/23/state/buttonevent",
+          "operator": "eq",
+          "value": "2000"
+        },
+        {
+          "address": "/sensors/23/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/3/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": 30,
+            "transitiontime": 4
+          }
+        }
+      ]
+    },
+    "49": {
+      "name": "XFDDimmer23Btn2001",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T10:40:58",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/23/state/buttonevent",
+          "operator": "eq",
+          "value": "2001"
+        },
+        {
+          "address": "/sensors/23/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/1/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": 55,
+            "transitiontime": 9
+          }
+        },
+        {
+          "address": "/groups/6/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": 55,
+            "transitiontime": 9
+          }
+        }
+      ]
+    },
+    "50": {
+      "name": "XFDDimmer23Btn3000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T10:40:58",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/23/state/buttonevent",
+          "operator": "eq",
+          "value": "3000"
+        },
+        {
+          "address": "/sensors/23/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/3/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": -30,
+            "transitiontime": 4
+          }
+        }
+      ]
+    },
+    "51": {
+      "name": "XFDDimmer23Btn3001",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T10:40:59",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/23/state/buttonevent",
+          "operator": "eq",
+          "value": "3001"
+        },
+        {
+          "address": "/sensors/23/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/1/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": -55,
+            "transitiontime": 9
+          }
+        },
+        {
+          "address": "/groups/6/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": -55,
+            "transitiontime": 9
+          }
+        }
+      ]
+    },
+    "52": {
+      "name": "XFDDimmer23Btn4000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T10:40:59",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/23/state/buttonevent",
+          "operator": "eq",
+          "value": "4000"
+        },
+        {
+          "address": "/sensors/23/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/3/action",
+          "method": "PUT",
+          "body": {
+            "on": false
+          }
+        }
+      ]
+    },
+    "53": {
+      "name": "XFDDimmer30Btn4000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T11:03:21",
+      "lasttriggered": "2020-11-27T17:07:19",
+      "timestriggered": 12,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/30/state/buttonevent",
+          "operator": "eq",
+          "value": "4000"
+        },
+        {
+          "address": "/sensors/30/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/4/action",
+          "method": "PUT",
+          "body": {
+            "on": false
+          }
+        }
+      ]
+    },
+    "54": {
+      "name": "XFDDimmer23Btn4001",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T11:14:28",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/23/state/buttonevent",
+          "operator": "eq",
+          "value": "4001"
+        },
+        {
+          "address": "/sensors/23/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": {
+            "scene": "7xKK3Psh0lXQ1sA"
+          }
+        }
+      ]
+    },
+    "55": {
+      "name": "XFDSns29RstState1000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T23:02:18",
+      "lasttriggered": "2020-11-27T16:18:44",
+      "timestriggered": 33,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/3/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:10"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/29/state",
+          "method": "PUT",
+          "body": {
+            "status": 0
+          }
+        }
+      ]
+    },
+    "56": {
+      "name": "XFDDimmer3Btn1000",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T23:03:57",
+      "lasttriggered": "2020-11-26T17:03:34",
+      "timestriggered": 1,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/29/state/status",
+          "operator": "eq",
+          "value": "3"
+        },
+        {
+          "address": "/sensors/3/state/buttonevent",
+          "operator": "eq",
+          "value": "1000"
+        },
+        {
+          "address": "/sensors/3/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/1/action",
+          "method": "PUT",
+          "body": {
+            "on": false
+          }
+        },
+        {
+          "address": "/groups/6/action",
+          "method": "PUT",
+          "body": {
+            "hue": 50438,
+            "bri": 254,
+            "sat": 254,
+            "transitiontime": 4,
+            "on": true
+          }
+        },
+        {
+          "address": "/sensors/29/state",
+          "method": "PUT",
+          "body": {
+            "status": 0
+          }
+        }
+      ]
+    },
+    "57": {
+      "name": "XFDani[3][1]423243lkjnjdsa",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T23:12:42",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/31/state/status",
+          "operator": "eq",
+          "value": "1"
+        },
+        {
+          "address": "/sensors/32/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/32/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/schedules/3",
+          "method": "PUT",
+          "body": {
+            "status": "enabled"
+          }
+        },
+        {
+          "address": "/groups/3/action",
+          "method": "PUT",
+          "body": {
+            "scene": "9WlPWpmWOsx7t4Q"
+          }
+        }
+      ]
+    },
+    "58": {
+      "name": "XFDani[3][1]23409adskj43",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T23:12:42",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/31/state/status",
+          "operator": "eq",
+          "value": "1"
+        },
+        {
+          "address": "/sensors/32/state/status",
+          "operator": "eq",
+          "value": "3"
+        },
+        {
+          "address": "/sensors/32/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/schedules/4",
+          "method": "PUT",
+          "body": {
+            "status": "enabled"
+          }
+        },
+        {
+          "address": "/groups/3/action",
+          "method": "PUT",
+          "body": {
+            "scene": "3WYWG4A29z2f4si"
+          }
+        }
+      ]
+    },
+    "59": {
+      "name": "XFDani[3][1]4329dsak9342",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T23:12:42",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/31/state/status",
+          "operator": "eq",
+          "value": "1"
+        },
+        {
+          "address": "/sensors/32/state/status",
+          "operator": "eq",
+          "value": "1"
+        },
+        {
+          "address": "/sensors/32/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/schedules/1",
+          "method": "PUT",
+          "body": {
+            "status": "enabled"
+          }
+        },
+        {
+          "address": "/groups/3/action",
+          "method": "PUT",
+          "body": {
+            "scene": "Pe1EpJ8qHenzUTO"
+          }
+        }
+      ]
+    },
+    "60": {
+      "name": "XFDani[3][1]rl:start",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T23:12:42",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/sensors/31/state/status",
+          "operator": "eq",
+          "value": "1"
+        },
+        {
+          "address": "/sensors/31/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/schedules/1",
+          "method": "PUT",
+          "body": {
+            "status": "enabled"
+          }
+        },
+        {
+          "address": "/groups/3/action",
+          "method": "PUT",
+          "body": {
+            "scene": "Pe1EpJ8qHenzUTO",
+            "bri": 203,
+            "on": true
+          }
+        }
+      ]
+    },
+    "61": {
+      "name": "XFDani[3]rl:stop",
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "created": "2020-07-19T23:12:42",
+      "lasttriggered": "2020-11-27T16:18:28",
+      "timestriggered": 19,
+      "status": "enabled",
+      "recycle": false,
+      "conditions": [
+        {
+          "address": "/groups/3/state/any_on",
+          "operator": "eq",
+          "value": "false"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/31/state",
+          "method": "PUT",
+          "body": {
+            "status": 0
+          }
+        }
+      ]
+    }
+  },
+  "sensors": {
+    "1": {
+      "state": {
+        "daylight": false,
+        "lastupdated": "2020-11-27T15:41:00"
+      },
+      "config": {
+        "on": true,
+        "configured": true,
+        "sunriseoffset": 30,
+        "sunsetoffset": -30
+      },
+      "name": "Daylight",
+      "type": "Daylight",
+      "modelid": "PHDL00",
+      "manufacturername": "Signify Netherlands B.V.",
+      "swversion": "1.0"
+    },
+    "3": {
+      "state": {
+        "buttonevent": 3002,
+        "lastupdated": "2020-11-27T16:18:34"
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2019-10-25T12:16:39"
+      },
+      "config": {
+        "on": true,
+        "battery": 92,
+        "reachable": true,
+        "pending": []
+      },
+      "name": "Interrupteur salon",
+      "type": "ZLLSwitch",
+      "modelid": "RWL021",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue dimmer switch",
+      "diversityid": "73bbabea-3420-499a-9856-46bf437e119b",
+      "swversion": "6.1.1.28573",
+      "uniqueid": "00:17:88:01:06:eb:50:a0-02-fc00",
+      "capabilities": {
+        "certified": true,
+        "primary": true,
+        "inputs": [
+          {
+            "repeatintervals": [
+              800
+            ],
+            "events": [
+              {
+                "buttonevent": 1000,
+                "eventtype": "initial_press"
+              },
+              {
+                "buttonevent": 1001,
+                "eventtype": "repeat"
+              },
+              {
+                "buttonevent": 1002,
+                "eventtype": "short_release"
+              },
+              {
+                "buttonevent": 1003,
+                "eventtype": "long_release"
+              }
+            ]
+          },
+          {
+            "repeatintervals": [
+              800
+            ],
+            "events": [
+              {
+                "buttonevent": 2000,
+                "eventtype": "initial_press"
+              },
+              {
+                "buttonevent": 2001,
+                "eventtype": "repeat"
+              },
+              {
+                "buttonevent": 2002,
+                "eventtype": "short_release"
+              },
+              {
+                "buttonevent": 2003,
+                "eventtype": "long_release"
+              }
+            ]
+          },
+          {
+            "repeatintervals": [
+              800
+            ],
+            "events": [
+              {
+                "buttonevent": 3000,
+                "eventtype": "initial_press"
+              },
+              {
+                "buttonevent": 3001,
+                "eventtype": "repeat"
+              },
+              {
+                "buttonevent": 3002,
+                "eventtype": "short_release"
+              },
+              {
+                "buttonevent": 3003,
+                "eventtype": "long_release"
+              }
+            ]
+          },
+          {
+            "repeatintervals": [
+              800
+            ],
+            "events": [
+              {
+                "buttonevent": 4000,
+                "eventtype": "initial_press"
+              },
+              {
+                "buttonevent": 4001,
+                "eventtype": "repeat"
+              },
+              {
+                "buttonevent": 4002,
+                "eventtype": "short_release"
+              },
+              {
+                "buttonevent": 4003,
+                "eventtype": "long_release"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "12": {
+      "state": {
+        "status": 0,
+        "lastupdated": "2019-12-05T17:46:31"
+      },
+      "config": {
+        "on": true,
+        "reachable": true
+      },
+      "name": "presenceState",
+      "type": "CLIPGenericStatus",
+      "modelid": "HUELABSENUM",
+      "manufacturername": "Philips",
+      "swversion": "1.0",
+      "uniqueid": "5:12:5345-bd24-4f3c-b79b",
+      "recycle": true
+    },
+    "13": {
+      "state": {
+        "presence": false,
+        "lastupdated": "2020-11-27T15:23:30"
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2019-12-05T18:05:29"
+      },
+      "config": {
+        "on": true,
+        "battery": 100,
+        "reachable": true,
+        "alert": "none",
+        "sensitivity": 2,
+        "sensitivitymax": 2,
+        "ledindication": false,
+        "usertest": false,
+        "pending": []
+      },
+      "name": "Dectecteur entrée",
+      "type": "ZLLPresence",
+      "modelid": "SML001",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue motion sensor",
+      "swversion": "6.1.1.27575",
+      "uniqueid": "00:17:88:01:06:f4:93:3d-02-0406",
+      "capabilities": {
+        "certified": true,
+        "primary": true
+      }
+    },
+    "14": {
+      "state": {
+        "lightlevel": 0,
+        "dark": true,
+        "daylight": false,
+        "lastupdated": "2020-11-27T17:38:19"
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2019-12-05T18:05:29"
+      },
+      "config": {
+        "on": true,
+        "battery": 100,
+        "reachable": true,
+        "alert": "none",
+        "tholddark": 16000,
+        "tholdoffset": 7000,
+        "ledindication": false,
+        "usertest": false,
+        "pending": []
+      },
+      "name": "Dectecteur entrée Light",
+      "type": "ZLLLightLevel",
+      "modelid": "SML001",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue ambient light sensor",
+      "swversion": "6.1.1.27575",
+      "uniqueid": "00:17:88:01:06:f4:93:3d-02-0400",
+      "capabilities": {
+        "certified": true,
+        "primary": false
+      }
+    },
+    "15": {
+      "state": {
+        "temperature": 1721,
+        "lastupdated": "2020-11-27T17:40:36"
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2019-12-05T18:05:29"
+      },
+      "config": {
+        "on": true,
+        "battery": 100,
+        "reachable": true,
+        "alert": "none",
+        "ledindication": false,
+        "usertest": false,
+        "pending": []
+      },
+      "name": "Dectecteur entrée Temp",
+      "type": "ZLLTemperature",
+      "modelid": "SML001",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue temperature sensor",
+      "swversion": "6.1.1.27575",
+      "uniqueid": "00:17:88:01:06:f4:93:3d-02-0402",
+      "capabilities": {
+        "certified": true,
+        "primary": false
+      }
+    },
+    "18": {
+      "state": {
+        "status": 0,
+        "lastupdated": "2020-11-27T15:24:16"
+      },
+      "config": {
+        "on": true,
+        "reachable": true
+      },
+      "name": "presenceState",
+      "type": "CLIPGenericStatus",
+      "modelid": "HUELABSENUM",
+      "manufacturername": "Philips",
+      "swversion": "1.0",
+      "uniqueid": "5:12:2abe-0ab8-4d5a-a16c",
+      "recycle": true
+    },
+    "19": {
+      "state": {
+        "status": 0,
+        "lastupdated": "2020-11-27T15:24:16"
+      },
+      "config": {
+        "on": true,
+        "reachable": true
+      },
+      "name": "presenceState",
+      "type": "CLIPGenericStatus",
+      "modelid": "HUELABSENUM",
+      "manufacturername": "Philips",
+      "swversion": "1.0",
+      "uniqueid": "5:12:a097-df32-4264-b68b",
+      "recycle": true
+    },
+    "20": {
+      "state": {
+        "buttonevent": 4002,
+        "lastupdated": "2020-11-27T00:30:33"
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-07-19T10:33:28"
+      },
+      "config": {
+        "on": true,
+        "battery": 100,
+        "reachable": true,
+        "pending": []
+      },
+      "name": "Interrupteur chambre",
+      "type": "ZLLSwitch",
+      "modelid": "RWL021",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue dimmer switch",
+      "diversityid": "73bbabea-3420-499a-9856-46bf437e119b",
+      "swversion": "6.1.1.28573",
+      "uniqueid": "00:17:88:01:08:70:c2:1a-02-fc00",
+      "capabilities": {
+        "certified": true,
+        "primary": true,
+        "inputs": [
+          {
+            "repeatintervals": [
+              800
+            ],
+            "events": [
+              {
+                "buttonevent": 1000,
+                "eventtype": "initial_press"
+              },
+              {
+                "buttonevent": 1001,
+                "eventtype": "repeat"
+              },
+              {
+                "buttonevent": 1002,
+                "eventtype": "short_release"
+              },
+              {
+                "buttonevent": 1003,
+                "eventtype": "long_release"
+              }
+            ]
+          },
+          {
+            "repeatintervals": [
+              800
+            ],
+            "events": [
+              {
+                "buttonevent": 2000,
+                "eventtype": "initial_press"
+              },
+              {
+                "buttonevent": 2001,
+                "eventtype": "repeat"
+              },
+              {
+                "buttonevent": 2002,
+                "eventtype": "short_release"
+              },
+              {
+                "buttonevent": 2003,
+                "eventtype": "long_release"
+              }
+            ]
+          },
+          {
+            "repeatintervals": [
+              800
+            ],
+            "events": [
+              {
+                "buttonevent": 3000,
+                "eventtype": "initial_press"
+              },
+              {
+                "buttonevent": 3001,
+                "eventtype": "repeat"
+              },
+              {
+                "buttonevent": 3002,
+                "eventtype": "short_release"
+              },
+              {
+                "buttonevent": 3003,
+                "eventtype": "long_release"
+              }
+            ]
+          },
+          {
+            "repeatintervals": [
+              800
+            ],
+            "events": [
+              {
+                "buttonevent": 4000,
+                "eventtype": "initial_press"
+              },
+              {
+                "buttonevent": 4001,
+                "eventtype": "repeat"
+              },
+              {
+                "buttonevent": 4002,
+                "eventtype": "short_release"
+              },
+              {
+                "buttonevent": 4003,
+                "eventtype": "long_release"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "23": {
+      "state": {
+        "buttonevent": 1002,
+        "lastupdated": "2020-11-22T17:09:28"
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-07-19T12:43:28"
+      },
+      "config": {
+        "on": true,
+        "battery": 100,
+        "reachable": true,
+        "pending": []
+      },
+      "name": "Interrupteur entrée",
+      "type": "ZLLSwitch",
+      "modelid": "RWL021",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue dimmer switch",
+      "diversityid": "73bbabea-3420-499a-9856-46bf437e119b",
+      "swversion": "6.1.1.28573",
+      "uniqueid": "00:17:88:01:06:34:d1:15-02-fc00",
+      "capabilities": {
+        "certified": true,
+        "primary": true,
+        "inputs": [
+          {
+            "repeatintervals": [
+              800
+            ],
+            "events": [
+              {
+                "buttonevent": 1000,
+                "eventtype": "initial_press"
+              },
+              {
+                "buttonevent": 1001,
+                "eventtype": "repeat"
+              },
+              {
+                "buttonevent": 1002,
+                "eventtype": "short_release"
+              },
+              {
+                "buttonevent": 1003,
+                "eventtype": "long_release"
+              }
+            ]
+          },
+          {
+            "repeatintervals": [
+              800
+            ],
+            "events": [
+              {
+                "buttonevent": 2000,
+                "eventtype": "initial_press"
+              },
+              {
+                "buttonevent": 2001,
+                "eventtype": "repeat"
+              },
+              {
+                "buttonevent": 2002,
+                "eventtype": "short_release"
+              },
+              {
+                "buttonevent": 2003,
+                "eventtype": "long_release"
+              }
+            ]
+          },
+          {
+            "repeatintervals": [
+              800
+            ],
+            "events": [
+              {
+                "buttonevent": 3000,
+                "eventtype": "initial_press"
+              },
+              {
+                "buttonevent": 3001,
+                "eventtype": "repeat"
+              },
+              {
+                "buttonevent": 3002,
+                "eventtype": "short_release"
+              },
+              {
+                "buttonevent": 3003,
+                "eventtype": "long_release"
+              }
+            ]
+          },
+          {
+            "repeatintervals": [
+              800
+            ],
+            "events": [
+              {
+                "buttonevent": 4000,
+                "eventtype": "initial_press"
+              },
+              {
+                "buttonevent": 4001,
+                "eventtype": "repeat"
+              },
+              {
+                "buttonevent": 4002,
+                "eventtype": "short_release"
+              },
+              {
+                "buttonevent": 4003,
+                "eventtype": "long_release"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "29": {
+      "state": {
+        "status": 0,
+        "lastupdated": "2020-11-27T16:18:44"
+      },
+      "config": {
+        "on": true,
+        "reachable": true
+      },
+      "name": "Press state XFDHueDim3Btn1000",
+      "type": "CLIPGenericStatus",
+      "modelid": "ButtonState",
+      "manufacturername": "xfiredesigns",
+      "swversion": "1.0",
+      "uniqueid": "35769AFD-4D2F-40D4-B3F7-3D41946D",
+      "recycle": false
+    },
+    "30": {
+      "state": {
+        "buttonevent": 4002,
+        "lastupdated": "2020-11-27T17:07:20"
+      },
+      "swupdate": {
+        "state": "noupdates",
+        "lastinstall": "2020-07-19T12:33:38"
+      },
+      "config": {
+        "on": true,
+        "battery": 100,
+        "reachable": true,
+        "pending": []
+      },
+      "name": "Interrupteur cuisine",
+      "type": "ZLLSwitch",
+      "modelid": "RWL021",
+      "manufacturername": "Signify Netherlands B.V.",
+      "productname": "Hue dimmer switch",
+      "diversityid": "73bbabea-3420-499a-9856-46bf437e119b",
+      "swversion": "6.1.1.28573",
+      "uniqueid": "00:17:88:01:08:6a:2f:b6-02-fc00",
+      "capabilities": {
+        "certified": true,
+        "primary": true,
+        "inputs": [
+          {
+            "repeatintervals": [
+              800
+            ],
+            "events": [
+              {
+                "buttonevent": 1000,
+                "eventtype": "initial_press"
+              },
+              {
+                "buttonevent": 1001,
+                "eventtype": "repeat"
+              },
+              {
+                "buttonevent": 1002,
+                "eventtype": "short_release"
+              },
+              {
+                "buttonevent": 1003,
+                "eventtype": "long_release"
+              }
+            ]
+          },
+          {
+            "repeatintervals": [
+              800
+            ],
+            "events": [
+              {
+                "buttonevent": 2000,
+                "eventtype": "initial_press"
+              },
+              {
+                "buttonevent": 2001,
+                "eventtype": "repeat"
+              },
+              {
+                "buttonevent": 2002,
+                "eventtype": "short_release"
+              },
+              {
+                "buttonevent": 2003,
+                "eventtype": "long_release"
+              }
+            ]
+          },
+          {
+            "repeatintervals": [
+              800
+            ],
+            "events": [
+              {
+                "buttonevent": 3000,
+                "eventtype": "initial_press"
+              },
+              {
+                "buttonevent": 3001,
+                "eventtype": "repeat"
+              },
+              {
+                "buttonevent": 3002,
+                "eventtype": "short_release"
+              },
+              {
+                "buttonevent": 3003,
+                "eventtype": "long_release"
+              }
+            ]
+          },
+          {
+            "repeatintervals": [
+              800
+            ],
+            "events": [
+              {
+                "buttonevent": 4000,
+                "eventtype": "initial_press"
+              },
+              {
+                "buttonevent": 4001,
+                "eventtype": "repeat"
+              },
+              {
+                "buttonevent": 4002,
+                "eventtype": "short_release"
+              },
+              {
+                "buttonevent": 4003,
+                "eventtype": "long_release"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "31": {
+      "state": {
+        "status": 0,
+        "lastupdated": "2020-11-27T16:18:28"
+      },
+      "config": {
+        "on": true,
+        "reachable": true
+      },
+      "name": "XFDani[3]sn:state",
+      "type": "CLIPGenericStatus",
+      "modelid": "AnimationSensor",
+      "manufacturername": "xfiredesigns",
+      "swversion": "1.0",
+      "uniqueid": "XFDani[3]sn:state",
+      "recycle": false
+    },
+    "32": {
+      "state": {
+        "status": 2,
+        "lastupdated": "2020-07-19T23:13:17"
+      },
+      "config": {
+        "on": true,
+        "reachable": true
+      },
+      "name": "XFDani[3][1]sn:step",
+      "type": "CLIPGenericStatus",
+      "modelid": "AnimationSensor",
+      "manufacturername": "xfiredesigns",
+      "swversion": "1.0",
+      "uniqueid": "XFDani[3][1]sn:step",
+      "recycle": false
+    }
+  },
+  "resourcelinks": {
+    "37908": {
+      "name": "Cuisine interrupteur",
+      "description": "Resources of Cuisine interrupteur",
+      "type": "Link",
+      "classid": 10011,
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "recycle": false,
+      "links": [
+        "/sensors/3",
+        "/rules/4",
+        "/rules/3",
+        "/rules/55",
+        "/rules/2",
+        "/rules/9",
+        "/rules/1",
+        "/rules/7",
+        "/sensors/29",
+        "/rules/6",
+        "/rules/5",
+        "/rules/56"
+      ]
+    },
+    "23994": {
+      "name": "Hue motion sensor 1",
+      "description": "Hue motion sensor 1 behavior",
+      "type": "Link",
+      "classid": 10022,
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "links": [
+        "/scenes/JY20pXY281OQHLj",
+        "/scenes/HKN95KspFMCXrt5",
+        "/groups/5",
+        "/sensors/12",
+        "/scenes/3N2mxUrPtPd45Sl"
+      ]
+    },
+    "40750": {
+      "name": "Hue motion sensor 1",
+      "description": "Hue motion sensor 1 behavior",
+      "type": "Link",
+      "classid": 10022,
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "links": [
+        "/rules/33",
+        "/rules/31",
+        "/rules/29",
+        "/rules/27",
+        "/rules/25",
+        "/rules/23",
+        "/rules/21",
+        "/rules/19",
+        "/rules/17",
+        "/scenes/JY20pXY281OQHLj",
+        "/rules/15",
+        "/rules/14",
+        "/sensors/14",
+        "/sensors/13",
+        "/scenes/HKN95KspFMCXrt5",
+        "/groups/5",
+        "/sensors/18",
+        "/scenes/QV15QdBR038Em8K"
+      ]
+    },
+    "29096": {
+      "name": "Hue motion sensor 1",
+      "description": "Hue motion sensor 1 behavior",
+      "type": "Link",
+      "classid": 10022,
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "links": [
+        "/rules/35",
+        "/rules/34",
+        "/rules/32",
+        "/rules/30",
+        "/rules/28",
+        "/rules/26",
+        "/rules/24",
+        "/rules/22",
+        "/rules/20",
+        "/scenes/JY20pXY281OQHLj",
+        "/rules/18",
+        "/rules/16",
+        "/sensors/14",
+        "/sensors/13",
+        "/scenes/HKN95KspFMCXrt5",
+        "/groups/5",
+        "/sensors/19",
+        "/scenes/4SZG7yeiGX6xHIY"
+      ]
+    },
+    "10260": {
+      "name": "Interrupteur chambre",
+      "description": "Resources of Interrupteur chambre",
+      "type": "Link",
+      "classid": 10011,
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "recycle": false,
+      "links": [
+        "/sensors/20",
+        "/rules/40",
+        "/rules/38",
+        "/rules/37",
+        "/rules/41",
+        "/rules/36",
+        "/rules/39"
+      ]
+    },
+    "21418": {
+      "name": "Interrupteur entrée",
+      "description": "Resources of Interrupteur entrée",
+      "type": "Link",
+      "classid": 10011,
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "recycle": false,
+      "links": [
+        "/sensors/23",
+        "/rules/48",
+        "/rules/50",
+        "/rules/47",
+        "/rules/52",
+        "/rules/49",
+        "/rules/54",
+        "/rules/51",
+        "/scenes/7xKK3Psh0lXQ1sA"
+      ]
+    },
+    "28053": {
+      "name": "Interrupteur entrée",
+      "description": "Interrupteur entrée behavior",
+      "type": "Link",
+      "classid": 10013,
+      "owner": "1352d523-818b-42bd-a8a2-3e6c68202f79",
+      "recycle": false,
+      "links": [
+        "/scenes/syg4S7sqEnLd4QE",
+        "/scenes/KJdTjSH3l5kyeG9",
+        "/scenes/d8P9gG8iVLRqIsJ",
+        "/scenes/6cR-22WhrlPwf2s",
+        "/sensors/23",
+        "/groups/3"
+      ]
+    },
+    "39813": {
+      "name": "Hue dimmer switch 2",
+      "description": "Resources of Hue dimmer switch 2",
+      "type": "Link",
+      "classid": 10011,
+      "owner": "c34e7365-5061-4413-9491-92e7c705701f",
+      "recycle": false,
+      "links": [
+        "/sensors/30",
+        "/rules/11",
+        "/rules/8",
+        "/rules/10",
+        "/rules/13",
+        "/rules/53",
+        "/rules/12"
+      ]
+    }
+  }
+}
