@@ -69,8 +69,6 @@ func Conn(IPAddr string, options BridgeOptions) *Bridge {
 		}
 	}
 
-	fmt.Println(b.Token)
-
 	return b
 }
 

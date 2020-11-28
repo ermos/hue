@@ -1,17 +1,11 @@
 package hue
 
 type Light struct {
-
+	Key		string
+	Bridge *Bridge
 	// Philips Hue API
 	State struct {
-		On        bool      `json:"on"`
-		Bri       int       `json:"bri"`
-		Hue       int       `json:"hue"`
-		Sat       int       `json:"sat"`
-		Effect    string    `json:"effect"`
-		Xy        []float64 `json:"xy"`
-		Ct        int       `json:"ct"`
-		Alert     string    `json:"alert"`
+		LightSetting
 		Colormode string    `json:"colormode"`
 		Mode      string    `json:"mode"`
 		Reachable bool      `json:"reachable"`
@@ -55,4 +49,9 @@ type Light struct {
 	Swversion  string `json:"swversion"`
 	Swconfigid string `json:"swconfigid,omitempty"`
 	Productid  string `json:"productid,omitempty"`
+}
+
+type AvailableLight struct {
+	ID 	string	`json:"id"`
+	Name string	`json:"name"`
 }

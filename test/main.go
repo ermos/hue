@@ -16,4 +16,12 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
+	err = bridge.Lights["11"].Set(hue.LightSetting{
+		Alert: hue.AlertCycle,
+		Xy: []float64{ 0.50, 0.80 },
+	})
+	if err != nil {
+		log.Fatal(err)
+	}
 }
