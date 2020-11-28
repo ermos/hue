@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/ermos/hue/internal/logger"
+	"github.com/lucasb-eyer/go-colorful"
 )
 
 type LightSetting struct {
@@ -26,6 +27,59 @@ const (
 	EffectColorLoop = "colorloop"
 )
 
+// Allows you to set light color with RGB value
+func (l *Light) SetColorRGB(r, g, b float64) error {
+	if r > 255 || r < 0 {
+		return logger.Error("red value is incorrect")
+	}
+	if g > 255 || g < 0 {
+		return logger.Error("green value is incorrect")
+	}
+	if b > 255 || b < 0 {
+		return logger.Error("blue value is incorrect")
+	}
+
+	c := colorful.Color{R: r, G: g, B: b}
+	x, y, _ := c.Xyy()
+	_, err := l.Bridge.put(
+		fmt.Sprintf("/lights/%s/state", l.Key),
+		bytes.NewBuffer(
+			[]byte(
+				fmt.Sprintf(`{"xy": [%f, %f]}`, x, y),
+			),
+		),
+	)
+	if err != nil {
+		return logger.Error(err)
+	}
+
+	return nil
+}
+
+// Allows you to set light color with HEX value
+func (l *Light) SetColorHEX(hex string) error {
+	c, err := colorful.Hex(hex)
+	if err != nil {
+		return logger.Error(err)
+	}
+
+	x, y, _ := c.Xyy()
+
+	_, err = l.Bridge.put(
+		fmt.Sprintf("/lights/%s/state", l.Key),
+		bytes.NewBuffer(
+			[]byte(
+				fmt.Sprintf(`{"xy": [%f, %f]}`, x, y),
+			),
+		),
+	)
+	if err != nil {
+		return logger.Error(err)
+	}
+
+	return nil
+}
+
 // Allows to turn the light on and off, modify the hue and effects.
 func (l *Light) Set(settings LightSetting) error {
 	data, err := json.Marshal(settings)
@@ -33,7 +87,6 @@ func (l *Light) Set(settings LightSetting) error {
 		return logger.Error(err)
 	}
 
-	fmt.Println(string(data))
 	_, err = l.Bridge.put(
 		fmt.Sprintf("/lights/%s/state", l.Key),
 		bytes.NewReader(data),
