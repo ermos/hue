@@ -11,7 +11,7 @@ type Bridge struct {
 }
 
 type BridgeFetch struct {
-	Bridge *Bridge
+	bridge *Bridge
 }
 
 type BridgeConfig struct {

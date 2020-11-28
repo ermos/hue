@@ -1,10 +1,9 @@
 package main
 
 import (
-	"errors"
+	"fmt"
 	"github.com/ermos/hue"
 	"log"
-	"time"
 )
 
 func main() {
@@ -14,19 +13,10 @@ func main() {
 		Debug: hue.DebugAll,
 	})
 
-	err := bridge.Fetch.Lights()
+	err := bridge.Fetch.Bridge()
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	ch := make(chan error)
-	go func() {
-		err = bridge.Lights["11"].Alarm(ch, 15 * time.Second)
-		if err != nil {
-			log.Fatal(err)
-		}
-	}()
-	time.Sleep(5 * time.Second)
-	ch <- errors.New("done")
-	time.Sleep(5 * time.Second)
+	fmt.Println(bridge.Config.Name)
 }

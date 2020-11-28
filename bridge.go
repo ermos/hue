@@ -34,7 +34,7 @@ func Conn(IPAddr string, options BridgeOptions) *Bridge {
 
 	// Initialize Fetch
 	b.Fetch = BridgeFetch{
-		Bridge: b,
+		bridge: b,
 	}
 
 	// Initialize debug
@@ -70,6 +70,28 @@ func Conn(IPAddr string, options BridgeOptions) *Bridge {
 	}
 
 	return b
+}
+
+func (b *Bridge) Rename(name string) error {
+	if len(name) < 4 || len(name) > 16 {
+		return logger.Error("bridge name need to be between 4 and 16 characters")
+	}
+
+	_, err := b.put(
+		"/config",
+		bytes.NewBuffer(
+			[]byte(
+				fmt.Sprintf(`{"name": "%s"}`, name),
+			),
+		),
+	)
+	if err != nil {
+		return logger.Error(err)
+	}
+
+	b.Config.Name = name
+
+	return nil
 }
 
 func (b *Bridge) auth() error {
