@@ -5,7 +5,14 @@ type Light struct {
 	Bridge *Bridge
 	// Philips Hue API
 	State struct {
-		LightSetting
+		On        bool      `json:"on,omitempty"`
+		Bri       uint8      `json:"bri,omitempty"`
+		Hue       uint16       `json:"hue,omitempty"`
+		Sat       uint8       `json:"sat,omitempty"`
+		Effect    string    `json:"effect,omitempty"`
+		Xy        []float64 `json:"xy,omitempty"`
+		Ct        uint16    `json:"ct,omitempty"`
+		Alert     string    `json:"alert,omitempty"`
 		Colormode string    `json:"colormode"`
 		Mode      string    `json:"mode"`
 		Reachable bool      `json:"reachable"`

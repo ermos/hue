@@ -9,7 +9,7 @@ import (
 func isError(body io.Reader) bool {
 	var e Error
 	err := json.NewDecoder(body).Decode(&e)
-	if err != nil || e[0].Error.Type == 0 {
+	if err != nil || len(e) == 0 || e[0].Error.Type == 0 {
 		return false
 	}
 	return true

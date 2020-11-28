@@ -2,22 +2,10 @@ package hue
 
 import (
 	"bytes"
-	"encoding/json"
 	"fmt"
 	"github.com/ermos/hue/internal/logger"
 	"github.com/lucasb-eyer/go-colorful"
 )
-
-type LightSetting struct {
-	On        bool      `json:"on,omitempty"`
-	Bri       int       `json:"bri,omitempty"`
-	Hue       int       `json:"hue,omitempty"`
-	Sat       int       `json:"sat,omitempty"`
-	Effect    string    `json:"effect,omitempty"`
-	Xy        []float64 `json:"xy,omitempty"`
-	Ct        int       `json:"ct,omitempty"`
-	Alert     string    `json:"alert,omitempty"`
-}
 
 const (
 	AlertNone = "none"
@@ -26,6 +14,158 @@ const (
 	EffectNone = "none"
 	EffectColorLoop = "colorloop"
 )
+
+// Toggle light to ON/OFF
+func (l *Light) Toggle(on bool) error {
+	_, err := l.Bridge.put(
+		fmt.Sprintf("/lights/%s/state", l.Key),
+		bytes.NewBuffer(
+			[]byte(
+				fmt.Sprintf(`{"on": %t}`, on),
+			),
+		),
+	)
+	if err != nil {
+		return logger.Error(err)
+	}
+
+	l.State.On = on
+
+	return nil
+}
+
+// Set brightness to the light
+func (l *Light) SetBrightness(bri uint8) error {
+	_, err := l.Bridge.put(
+		fmt.Sprintf("/lights/%s/state", l.Key),
+		bytes.NewBuffer(
+			[]byte(
+				fmt.Sprintf(`{"bri": %d}`, bri),
+			),
+		),
+	)
+	if err != nil {
+		return logger.Error(err)
+	}
+
+	l.State.Bri = bri
+
+	return nil
+}
+
+// Set Hue to the light
+func (l *Light) SetHue(hue uint16) error {
+	_, err := l.Bridge.put(
+		fmt.Sprintf("/lights/%s/state", l.Key),
+		bytes.NewBuffer(
+			[]byte(
+				fmt.Sprintf(`{"hue": %d}`, hue),
+			),
+		),
+	)
+	if err != nil {
+		return logger.Error(err)
+	}
+
+	l.State.Hue = hue
+
+	return nil
+}
+
+// Set saturation of the light
+func (l *Light) SetSaturation(sat uint8) error {
+	_, err := l.Bridge.put(
+		fmt.Sprintf("/lights/%s/state", l.Key),
+		bytes.NewBuffer(
+			[]byte(
+				fmt.Sprintf(`{"sat": %d}`, sat),
+			),
+		),
+	)
+	if err != nil {
+		return logger.Error(err)
+	}
+
+	l.State.Sat = sat
+
+	return nil
+}
+
+// Set effect to light, actually only "colorloop" exist
+func (l *Light) SetEffect(effect string) error {
+	_, err := l.Bridge.put(
+		fmt.Sprintf("/lights/%s/state", l.Key),
+		bytes.NewBuffer(
+			[]byte(
+				fmt.Sprintf(`{"effect": "%s"}`, effect),
+			),
+		),
+	)
+	if err != nil {
+		return logger.Error(err)
+	}
+
+	l.State.Effect = effect
+
+	return nil
+}
+
+// Set alert effect to light
+func (l *Light) SetAlert(alert string) error {
+	_, err := l.Bridge.put(
+		fmt.Sprintf("/lights/%s/state", l.Key),
+		bytes.NewBuffer(
+			[]byte(
+				fmt.Sprintf(`{"alert": "%s"}`, alert),
+			),
+		),
+	)
+	if err != nil {
+		return logger.Error(err)
+	}
+
+	l.State.Alert = alert
+
+	return nil
+}
+
+// Allows you to set color temperature
+func (l *Light) SetColorTemperature(ct uint16) error {
+	_, err := l.Bridge.put(
+		fmt.Sprintf("/lights/%s/state", l.Key),
+		bytes.NewBuffer(
+			[]byte(
+				fmt.Sprintf(`{"ct": %d}`, ct),
+			),
+		),
+	)
+	if err != nil {
+		return logger.Error(err)
+	}
+
+	l.State.Ct = ct
+
+	return nil
+}
+
+// Allows you to set light color with CIE value
+func (l *Light) SetColorCIE(x, y float64) error {
+	_, err := l.Bridge.put(
+		fmt.Sprintf("/lights/%s/state", l.Key),
+		bytes.NewBuffer(
+			[]byte(
+				fmt.Sprintf(`{"xy": [%f, %f]}`, x, y),
+			),
+		),
+	)
+	if err != nil {
+		return logger.Error(err)
+	}
+
+	l.State.Xy = []float64{ x, y }
+
+	return nil
+}
 
 // Allows you to set light color with RGB value
 func (l *Light) SetColorRGB(r, g, b float64) error {
@@ -53,6 +193,8 @@ func (l *Light) SetColorRGB(r, g, b float64) error {
 		return logger.Error(err)
 	}
 
+	l.State.Xy = []float64{ x, y }
+
 	return nil
 }
 
@@ -77,23 +219,7 @@ func (l *Light) SetColorHEX(hex string) error {
 		return logger.Error(err)
 	}
 
-	return nil
-}
-
-// Allows to turn the light on and off, modify the hue and effects.
-func (l *Light) Set(settings LightSetting) error {
-	data, err := json.Marshal(settings)
-	if err != nil {
-		return logger.Error(err)
-	}
-
-	_, err = l.Bridge.put(
-		fmt.Sprintf("/lights/%s/state", l.Key),
-		bytes.NewReader(data),
-	)
-	if err != nil {
-		return logger.Error(err)
-	}
+	l.State.Xy = []float64{ x, y }
 
 	return nil
 }
@@ -116,57 +242,7 @@ func (l *Light) Rename(name string) error {
 		return logger.Error(err)
 	}
 
-	return nil
-}
-
-// The bridge will open the network for 40s and search all available devices, send multiple time append 40s.
-// For show new devices, you need to use ShowNewLights.
-func (b *Bridge) SearchNewLights() error {
-	_, err := b.post(
-		fmt.Sprintf("/lights"),
-		nil,
-	)
-	if err != nil {
-		return logger.Error(err)
-	}
+	l.Name = name
 
 	return nil
-}
-
-// Gets a list of lights that were discovered the last time a search for new lights was performed.
-// The list of new lights is always deleted when a new search is started.
-// If you miss one light, you can find it in group "0"
-func (b *Bridge) ShowNewLights() (list []AvailableLight, err error) {
-	body, err := b.get("/lights/new")
-	if err != nil {
-		return list, logger.Error(err)
-	}
-
-	var parse map[string]interface{}
-	err = json.NewDecoder(bytes.NewBuffer(body)).Decode(&parse)
-	if err != nil {
-		return list, logger.Error(err)
-	}
-	delete(parse, "lastscan")
-
-	for id, name := range parse {
-		list = append(list, AvailableLight{
-			ID: id,
-			Name: name.(string),
-		})
-	}
-
-	if len(list) != 0 {
-		err = b.Fetch.Lights()
-		if err != nil {
-			return list, err
-		}
-	}
-
-	return list, nil
-	//{
-	//    "7": {"name": "Hue Lamp 7"},
-	//    "8": {"name": "Hue Lamp 8"},
-	//    "lastscan": "2012-10-29T12:00:00"
-	//}
 }
