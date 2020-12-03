@@ -21,6 +21,7 @@ const (
 )
 
 type BridgeOptions struct {
+	Token 			string
 	SaveToken 		bool
 	SaveLocation 	string
 	Debug 			int
@@ -43,12 +44,17 @@ func Conn(IPAddr string, options BridgeOptions) *Bridge {
 	}
 
 	// Check if token already exist
-	if _, err := os.Stat(filepath.Join(options.SaveLocation, ".hue")); !os.IsNotExist(err) {
-		tokenByte, err := ioutil.ReadFile(filepath.Join(options.SaveLocation, ".hue"))
-		if err != nil {
-			log.Fatal(err)
+	if options.Token != "" {
+		b.Token = options.Token
+	}
+	if options.SaveToken {
+		if _, err := os.Stat(filepath.Join(options.SaveLocation, ".hue")); !os.IsNotExist(err) {
+			tokenByte, err := ioutil.ReadFile(filepath.Join(options.SaveLocation, ".hue"))
+			if err != nil {
+				log.Fatal(err)
+			}
+			b.Token = string(tokenByte)
 		}
-		b.Token = string(tokenByte)
 	}
 
 	// Don't have token ? Wait for button press
